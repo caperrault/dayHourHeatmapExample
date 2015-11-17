@@ -21,6 +21,26 @@
       text.axis-worktime {
         fill: #000;
       }
+
+
+      div.mapTooltip1 {
+        width: 250px;
+        position: absolute;
+        text-align: left;
+        color: white;
+        padding: 0;
+        font-size: 12px;
+        font-family: Consolas, courier;
+        background: #444;
+        border: 0;
+        pointer-events: none;
+        display : block;
+      }
+
+      .top {
+    vertical-align: text-top;
+    }
+
     </style>
     <script src="http://d3js.org/d3.v3.js"></script>
   </head>
@@ -35,10 +55,15 @@
           gridSize = Math.floor(width / 28),
       //    legendElementWidth = gridSize*2,
           buckets = 9,
-          colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
+      //    colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
           ppl = ["Kat", "Charlotte", "Charles"],
-          dayz = ["M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S"];
-          datasets = ["data.tsv", "data2.tsv"];
+          days = ["M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S"];
+          dates = ["11/16", "11/17", "11/18", "11/19", "11/20", "11/21", "11/22", "11/23", "11/24", "11/25", "11/26", "11/27", "11/28", "11/29", "11/30", "12/1", "12/2", "12/3", "12/4", "12/5", "12/6", "12/7", "12/8", "12/9", "12/10", "12/11", "12/12", "12/13"];
+          datasets = ["Data22.csv", "data2.csv"];
+
+      var div1 = d3.select("body").append("div")
+          .attr("class", "mapTooltip1")
+          .style("opacity", 0);
 
       var svg = d3.select("#chart").append("svg")
           .attr("width", width + margin.left + margin.right)
@@ -46,7 +71,7 @@
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      var dayLabels = svg.selectAll(".dayLabel")
+      var peopleLabels = svg.selectAll(".peopleLabel")
           .data(ppl)
           .enter().append("text")
             .text(function (d) { return d; })
@@ -54,10 +79,24 @@
             .attr("y", function (d, i) { return i * gridSize - 4; })
             .style("text-anchor", "end")
             .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", function (d) { return "dayLabel mono axis axis-workweek"; });
+            .attr("class", "peopleLabel mono axis axis-workweek");
+
+        var dateLabels = svg.selectAll(".dateLabel")
+            .data(dates)
+            .enter().append("text")
+              .text(function(d) { return d; })
+              .attr("x", function(d, i) { return i * gridSize; })
+              .attr("y", -20)
+              .style("display", function (d,i) {
+                if (i === 0 || i === 4 || i === 7 || i === 11 || i === 14 || i === 18 || i === 21 || i === 25) { return "inline";}
+                else { return "none";}
+              })
+              .style("text-anchor", "middle")
+              .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+              .attr("class", " mono axis axis-worktime");
 
       var timeLabels = svg.selectAll(".timeLabel")
-          .data(dayz)
+          .data(days)
           .enter().append("text")
             .text(function(d) { return d; })
             .attr("x", function(d, i) { return i * gridSize; })
@@ -66,43 +105,39 @@
             .attr("transform", "translate(" + gridSize / 2 + ", -6)")
             .attr("class", function(d) { return ((d === "S") ? "timeLabel mono axis" : "timeLabel mono axis axis-worktime" ); });
 
-      var heatmapChart = function(tsvFile) {
-        d3.tsv(tsvFile,
+      var heatmapChart = function(csvFile) {
+        d3.csv(csvFile,
         function(d) {
           return {
-            day: +d.day,
-            hour: +d.hour,
+            personName: d.personName,
+            people: d.people,
+            day: d.day,
+            dayName: d.dayName,
+            dayDate: d.dayDate,
+            project1: d.project1,
+            project1Value: d.project1Value,
+            project2: d.project2,
+            project2Value: d.project2Value,
+            project3: d.project3,
+            project3Value: d.project3Value,
             value: +d.value
           };
         },
         function(error, data) {
-          var colorScale = d3.scale.quantile()
-              .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
-              .range(colors);
+          // var colorScale = d3.scale.quantile()
+          //     .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
+          //     .range(colors);
 
-        // var rectangles = svg.selectAll(".hour")
-        //                     .data(data, function(d) {return d.day+':'+d.hour;});
-        //
-        // var newRectangles = rectangles.enter().append("g");
-        //
-        // newRectangles.append("image")
-        //                     .attr("xlink:href", "test1.jpg")
-        //                     .attr("x", function(d) { return (d.hour - 1) * gridSize; })
-        //                     .attr("y", function(d) { return (d.day - 1) * gridSize; })
-        //                     .attr("width", gridSize)
-        //                     .attr("height", gridSize);
+          var cards = svg.selectAll(".day")
+             .data(data, function(d) {return d.people +':'+ d.day;});
 
-          var cards = svg.selectAll(".hour")
-             .data(data, function(d) {return d.day +':'+ d.hour;});
-
-        //  cards.append("title");
 
           cards.enter().append("rect")
-              .attr("x", function(d) { return (d.hour - 1) * gridSize ; })
-              .attr("y", function(d) { return (d.day - 1) * gridSize; })
+              .attr("x", function(d) { return (d.day - 1) * gridSize ; })
+              .attr("y", function(d) { return (d.people - 1) * gridSize; })
               .attr("rx", 0)
               .attr("ry", 0)
-              .attr("class", "hour bordered")
+              .attr("class", "day bordered")
               .attr("width", gridSize)
               .attr("height", gridSize - 3)
               .style("fill", function(d) {
@@ -116,14 +151,14 @@
 
           cards.enter().append("rect")
               .attr("x", function(d) {
-              if (d.value === 0.75) { return (d.hour - 1) * gridSize + gridSize/2 +1; }
-              else { return (d.hour - 1) * gridSize + 2; }
-            })
-              .attr("y", function(d) {
-              if (d.value === 0.5 || d.value === 0.75) { return (d.day - 1) * gridSize + gridSize/2 - 2; }
+              if (d.value === 0.75) { return (d.day - 1) * gridSize + gridSize/2 +1; }
               else { return (d.day - 1) * gridSize + 2; }
             })
-              //.attr("y", function(d) { return (d.day - 1) * gridSize + 4; })
+              .attr("y", function(d) {
+              if (d.value === 0.5 || d.value === 0.75) { return (d.people - 1) * gridSize + gridSize/2 - 2; }
+              else { return (d.people - 1) * gridSize + 2; }
+            })
+              //.attr("y", function(d) { return (d.people - 1) * gridSize + 4; })
               // .attr("rx", 0)
               // .attr("ry", 0)
               .attr("width", function(d) {
@@ -143,29 +178,46 @@
               // .style("stroke-width", 2);
 
           cards.enter().append("line")
-          .attr("x1", function(d) { return (d.hour - 1) * gridSize + gridSize/2 ;})
-          .attr("y1", function(d) { return (d.day - 1) * gridSize; })
-          .attr("x2", function(d) { return (d.hour - 1) * gridSize + gridSize/2 ;})
-          .attr("y2", function(d) { return (d.day - 1) * gridSize + gridSize; })
+          .attr("x1", function(d) { return (d.day - 1) * gridSize + gridSize/2 ;})
+          .attr("y1", function(d) { return (d.people - 1) * gridSize; })
+          .attr("x2", function(d) { return (d.day - 1) * gridSize + gridSize/2 ;})
+          .attr("y2", function(d) { return (d.people - 1) * gridSize + gridSize; })
           .attr("stroke", "white")
           .attr("stroke-width", 2);
 
           cards.enter().append("line")
-          .attr("x1", function(d) { return (d.hour - 1) * gridSize; })
-          .attr("y1", function(d) { return (d.day - 1) * gridSize + (gridSize - 2) /2 ;})
-          .attr("x2", function(d) { return (d.hour - 1) * gridSize + gridSize; })
-          .attr("y2", function(d) { return (d.day - 1) * gridSize + (gridSize - 2) /2 ;})
+          .attr("x1", function(d) { return (d.day - 1) * gridSize; })
+          .attr("y1", function(d) { return (d.people - 1) * gridSize + (gridSize - 2) /2 ;})
+          .attr("x2", function(d) { return (d.day - 1) * gridSize + gridSize; })
+          .attr("y2", function(d) { return (d.people - 1) * gridSize + (gridSize - 2) /2 ;})
           .attr("stroke", "white")
           .attr("stroke-width", 2);
 
           cards.enter().append("rect")
-              .attr("x", function(d) { return (d.hour - 1) * gridSize ; })
-              .attr("y", function(d) { return (d.day - 1) * gridSize; })
+              .attr("x", function(d) { return (d.day - 1) * gridSize ; })
+              .attr("y", function(d) { return (d.people - 1) * gridSize; })
               .attr("width", gridSize)
               .attr("height", gridSize - 3)
-              .style("fill", "none")
+              .attr("fill-opacity", 0)
               .style("stroke", "white")
-              .style("stroke-width", 5);
+              .style("stroke-width", 5)
+              .style("cursor", "pointer")
+              .style("display", function(d) {
+                if (d.dayName === "Saturday" || d.dayName === "Sunday") {return "none";}
+                else {return "inline";}
+              })
+              .on("mouseover", function(d) {
+                div1.transition().duration(300).style("opacity", 1);
+                      //div1.html("<img src=" + d.IMAGE + " width=250 > <br><p style = padding-left:5px;font-weight:bold>"  + d.TITLE + " (" + d.YEAR + ")</p><p style = padding-left:5px;font-size:10>" + d.DESCRIPTION + "</p><p style=padding-left:5px;text-decoration:underline;font-size:10;>Source</p>")
+                          div1.html(
+                            "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + d.project1 + ": " + d.project1Value*100 + "% </p> <p style=padding-left:10px> " + d.project2 + ": " + d.project2Value*100 + "% </p> <p style=padding-left:10px> " + d.project3 + ": " + d.project3Value*100 + "% </p>"
+                          )
+                          .style("left", (d3.event.pageX) + "px")
+                          .style("top", (d3.event.pageY-10) + "px");
+              })
+              .on("mouseout", function () {
+                        div1.transition().duration(300).style("opacity", 0);
+                        });
 
           // cards.transition().duration(1000)
           //     .style("fill", function(d) {
