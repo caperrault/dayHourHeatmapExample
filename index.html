@@ -111,15 +111,15 @@
           return {
             personName: d.personName,
             people: d.people,
-            day: d.day,
+            day: +d.day,
             dayName: d.dayName,
             dayDate: d.dayDate,
             project1: d.project1,
-            project1Value: d.project1Value,
+            project1Value: +d.project1Value,
             project2: d.project2,
-            project2Value: d.project2Value,
+            project2Value: +d.project2Value,
             project3: d.project3,
-            project3Value: d.project3Value,
+            project3Value: +d.project3Value,
             value: +d.value
           };
         },
@@ -130,7 +130,6 @@
 
           var cards = svg.selectAll(".day")
              .data(data, function(d) {return d.people +':'+ d.day;});
-
 
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize ; })
@@ -196,6 +195,7 @@
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize ; })
               .attr("y", function(d) { return (d.people - 1) * gridSize; })
+              .attr("class", "topRect")
               .attr("width", gridSize)
               .attr("height", gridSize - 3)
               .attr("fill-opacity", 0)
@@ -208,13 +208,54 @@
               })
               .on("mouseover", function(d) {
                 div1.transition().duration(300).style("opacity", 1);
-                      //div1.html("<img src=" + d.IMAGE + " width=250 > <br><p style = padding-left:5px;font-weight:bold>"  + d.TITLE + " (" + d.YEAR + ")</p><p style = padding-left:5px;font-size:10>" + d.DESCRIPTION + "</p><p style=padding-left:5px;text-decoration:underline;font-size:10;>Source</p>")
-                          div1.html(
-                            "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + d.project1 + ": " + d.project1Value*100 + "% </p> <p style=padding-left:10px> " + d.project2 + ": " + d.project2Value*100 + "% </p> <p style=padding-left:10px> " + d.project3 + ": " + d.project3Value*100 + "% </p>"
-                          )
-                          .style("left", (d3.event.pageX) + "px")
-                          .style("top", (d3.event.pageY-10) + "px");
-              })
+
+                // div1.html(
+                //   "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>"
+                // )
+
+                    allocation = ["","",""];
+                    //if (d.project1Value !== 0)  { allocation.push(d.project1 + ": " + d.project1Value * 100 + "%")};
+                      if (d.project1Value !== 0)  {allocation[0] = d.project1 + ": " + d.project1Value * 100 + "%";} else {allocation[0] = "";};
+                      if (d.project2Value !== 0)  {allocation[1] = d.project2 + ": " + d.project2Value * 100 + "%";} else {allocation[1] = "";};
+                      if (d.project3Value !== 0)  {allocation[2] = d.project3 + ": " + d.project3Value * 100 + "%";} else {allocation[2] = "";};
+
+                      div1.html(
+                        "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + allocation[0] + " </p> <p style=padding-left:10px> " + allocation[1] + " </p> <p style=padding-left:10px> " + allocation[2] + " </p>"
+                      )
+
+
+                      // allocations.forEach(function(element, index) {
+                      //   console.log(element);
+                      //   // <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + element + " </p>
+                      //   // div.append <p>element</p>
+                      // })
+
+                      div1.style("left", (d3.event.pageX) + "px")
+                      .style("top", (d3.event.pageY-10) + "px");
+
+              //     }
+
+                // div1.html(
+                //   "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + d.project1 + ": " + d.project1Value*100 + "% </p> <p style=padding-left:10px> " + d.project2 + ": " + d.project2Value*100 + "% </p> <p style=padding-left:10px> " + d.project3 + ": " + d.project3Value*100 + "% </p>"
+                // )
+                // .style("left", (d3.event.pageX) + "px")
+                // .style("top", (d3.event.pageY-10) + "px");
+
+                // div1.style("left", (d3.event.pageX) + "px")
+                //      .style("top", (d3.event.pageY-10) + "px")
+
+              //  div1.text("test")
+
+              // div1.style("left", (d3.event.pageX) + "px")
+              // .style("top", (d3.event.pageY-10) + "px")
+              // .text(function() {
+              //   console.log(d.project1Value);
+              //   if(d.project1Value !== 0) {return d.project1 + ": " + d.project1Value*100 + "%";}
+              //   else {return "";}
+              // })
+              // .attr("x", 50);
+
+               })
               .on("mouseout", function () {
                         div1.transition().duration(300).style("opacity", 0);
                         });
