@@ -22,7 +22,6 @@
         fill: #000;
       }
 
-
       div.mapTooltip1 {
         width: 250px;
         position: absolute;
@@ -209,18 +208,19 @@
               .on("mouseover", function(d) {
                 div1.transition().duration(300).style("opacity", 1);
 
-                // div1.html(
-                //   "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>"
-                // )
-
-                    allocation = ["","",""];
+                    allocation = ["","","",""];
                     //if (d.project1Value !== 0)  { allocation.push(d.project1 + ": " + d.project1Value * 100 + "%")};
                       if (d.project1Value !== 0)  {allocation[0] = d.project1 + ": " + d.project1Value * 100 + "%";} else {allocation[0] = "";};
                       if (d.project2Value !== 0)  {allocation[1] = d.project2 + ": " + d.project2Value * 100 + "%";} else {allocation[1] = "";};
                       if (d.project3Value !== 0)  {allocation[2] = d.project3 + ": " + d.project3Value * 100 + "%";} else {allocation[2] = "";};
+                      if (d.value !== 1)  {allocation[4] = (1-d.value)*100 + "% free";} else {allocation[4] = "";};
+
+                      // div1.html( //with %/%
+                      //   "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p> <p style=padding-right:10px;margin-top:-15px;text-align:left><span style=color:#D46D7A>" + d.value*100 + "%</span>/<span style=color:#00B49B>" + (1-d.value)*100 + "%</span> </p> </div> </div> <br> <p style=padding-left:10px> " + allocation[0] + " </p> <p style=padding-left:10px> " + allocation[1] + " </p> <p style=padding-left:10px> " + allocation[2] + " </p>"
+                      // )
 
                       div1.html(
-                        "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + allocation[0] + " </p> <p style=padding-left:10px> " + allocation[1] + " </p> <p style=padding-left:10px> " + allocation[2] + " </p>"
+                        "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p> <p style=padding-right:10px;margin-top:-15px;text-align:left;color:#00B49B>" + allocation[4] + " </p> </div> </div> <br> <p style=padding-left:10px> " + allocation[0] + " </p> <p style=padding-left:10px> " + allocation[1] + " </p> <p style=padding-left:10px> " + allocation[2] + " </p>"
                       )
 
 
@@ -230,30 +230,9 @@
                       //   // div.append <p>element</p>
                       // })
 
+
                       div1.style("left", (d3.event.pageX) + "px")
                       .style("top", (d3.event.pageY-10) + "px");
-
-              //     }
-
-                // div1.html(
-                //   "<div style=margin-left:10px;margin-top:10px> <img class=top src=" + d.personName + ".jpg width=50 > <div style=float:right> <p style=font-weight:bold;padding-right:10px;font-size:16px;margin-top:0px>" + d.dayName + " " + d.dayDate + " </p>  </div> </div> <br> <p style=padding-left:10px> " + d.project1 + ": " + d.project1Value*100 + "% </p> <p style=padding-left:10px> " + d.project2 + ": " + d.project2Value*100 + "% </p> <p style=padding-left:10px> " + d.project3 + ": " + d.project3Value*100 + "% </p>"
-                // )
-                // .style("left", (d3.event.pageX) + "px")
-                // .style("top", (d3.event.pageY-10) + "px");
-
-                // div1.style("left", (d3.event.pageX) + "px")
-                //      .style("top", (d3.event.pageY-10) + "px")
-
-              //  div1.text("test")
-
-              // div1.style("left", (d3.event.pageX) + "px")
-              // .style("top", (d3.event.pageY-10) + "px")
-              // .text(function() {
-              //   console.log(d.project1Value);
-              //   if(d.project1Value !== 0) {return d.project1 + ": " + d.project1Value*100 + "%";}
-              //   else {return "";}
-              // })
-              // .attr("x", 50);
 
                })
               .on("mouseout", function () {
