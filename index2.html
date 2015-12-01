@@ -3,16 +3,6 @@
 <html>
   <head>
     <style>
-
-      h1 {
-        font-size: 36pt;
-        font-family: Consolas, courier;
-        fill: #F2F2F2;
-        margin-top: 100px;
-        margin-bottom: 75px;
-        margin-left: 75px;
-      }
-
       rect.bordered {
         stroke: #fff;
         stroke-width:2px;
@@ -21,7 +11,6 @@
 
       rect.today {
         stroke: lightGray;
-        /*stroke: #fff;*/
         stroke-width:2px;
         opacity: 1;
       }
@@ -62,38 +51,35 @@
     <script src="http://d3js.org/d3.v3.js"></script>
   </head>
   <body>
-    <h1> STRATEGY + UX Resources </h1>
     <div id="chart"></div>
     <div id="dataset-picker">
     </div>
     <script type="text/javascript">
-      var margin = { top: 50, right: 0, bottom: 100, left: 450 },
-          width = 1500 - margin.left - margin.right,
+      var margin = { top: 50, right: 0, bottom: 100, left: 80 },
+          width = 1200 - margin.left - margin.right,
           height = 430 - margin.top - margin.bottom,
           gridSize = Math.floor(width / 28),
       //    legendElementWidth = gridSize*2,
       //    buckets = 9,
       //    colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
-          side = ["Strategy", "UX"],
-          roles = ["Social Strategist", "Design Strategist", "Design Strategist"],
           ppl = ["Kat", "Charlotte", "Charles"],
           days = ["M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S"];
           dates = ["11/16", "11/17", "11/18", "11/19", "11/20", "11/21", "11/22", "11/23", "11/24", "11/25", "11/26", "11/27", "11/28", "11/29", "11/30", "12/1", "12/2", "12/3", "12/4", "12/5", "12/6", "12/7", "12/8", "12/9", "12/10", "12/11", "12/12", "12/13"];
           datasets = ["Data22.csv", "data2.csv"],
           iToday = 16;
 
-          // //grabbing todays date mm/dd
-          // var today = new Date();
-          // var dd = today.getDate();
-          // var mm = today.getMonth()+1; //January is 0!
-          //
-          // if(dd<10){
-          //     dd='0'+dd
-          // }
-          // if(mm<10){
-          //     mm='0'+mm
-          // }
-          // var today = mm+'/'+dd;
+          //grabbing todays date mm/dd
+          var today = new Date();
+          var dd = today.getDate();
+          var mm = today.getMonth()+1; //January is 0!
+
+          if(dd<10){
+              dd='0'+dd
+          }
+          if(mm<10){
+              mm='0'+mm
+          }
+          var today = mm+'/'+dd;
 
 
       var div1 = d3.select("body").append("div")
@@ -106,61 +92,13 @@
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-      var heatmapChart = function(csvFile) {
-        d3.csv(csvFile,
-        function(d,i) {
-          return {
-            personName: d.personName,
-            people: d.people,
-            day: +d.day,
-            dayName: d.dayName,
-            dayDate: d.dayDate,
-            project1: d.project1,
-            project1Value: +d.project1Value,
-            project2: d.project2,
-            project2Value: +d.project2Value,
-            project3: d.project3,
-            project3Value: +d.project3Value,
-            value: +d.value,
-          };
-        },
-        function(error, data) {
-          // var colorScale = d3.scale.quantile()
-          //     .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
-          //     .range(colors);
-
-      //    var iToday = function (d,i) {if (d.dayDate === today) {return iToday === i;}}
-
-      var sideLabels = svg.selectAll(".sideLabel")
-          .data(side)
-          .enter().append("text")
-            .text(function (d, i) {
-              if (i === 1) { return side[i-1]; }
-             })
-            .attr("x", -gridSize*10 )
-            .attr("y", function (d, i) { return (i-1) * gridSize - 4; })
-          //  .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", "sideLabel mono axis axis-workweek")
-            .style("font-weight", "bold");
-
-      var rolesLabels = svg.selectAll(".rolesLabel")
-          .data(roles)
-          .enter().append("text")
-            .text(function (d) { return d; })
-            .attr("x", -gridSize*7 )
-            .attr("y", function (d, i) { return i * gridSize - 4; })
-          //  .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", "rolesLabel mono axis axis-workweek");
-
       var peopleLabels = svg.selectAll(".peopleLabel")
           .data(ppl)
           .enter().append("text")
             .text(function (d) { return d; })
-            .attr("x", -gridSize*3 )
+            .attr("x", 0)
             .attr("y", function (d, i) { return i * gridSize - 4; })
-          //  .style("text-anchor", "end")
+            .style("text-anchor", "end")
             .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
             .attr("class", "peopleLabel mono axis axis-workweek");
 
@@ -198,6 +136,31 @@
             })
             .attr("transform", "translate(" + gridSize / 2 + ", -6)")
             .attr("class", function(d) { return ((d === "S") ? "timeLabel mono axis" : "timeLabel mono axis axis-worktime" ); });
+
+      var heatmapChart = function(csvFile) {
+        d3.csv(csvFile,
+        function(d,i) {
+          return {
+            personName: d.personName,
+            people: d.people,
+            day: +d.day,
+            dayName: d.dayName,
+            dayDate: d.dayDate,
+            project1: d.project1,
+            project1Value: +d.project1Value,
+            project2: d.project2,
+            project2Value: +d.project2Value,
+            project3: d.project3,
+            project3Value: +d.project3Value,
+            value: +d.value,
+          };
+        },
+        function(error, data) {
+          // var colorScale = d3.scale.quantile()
+          //     .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
+          //     .range(colors);
+
+      //    var iToday = function (d,i) {if (d.dayDate === today) {return iToday === i;}}
 
           var cards = svg.selectAll(".day")
              .data(data, function(d) {return d.people +':'+ d.day;});
@@ -250,51 +213,51 @@
                 else { return "#D46D7A"; }
               });
 
-          //bottom right square
-          cards.enter().append("rect")
-              .attr("x", function(d) { return (d.day - 1) * gridSize + gridSize/2; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
-              .attr("width", gridSize/2)
-              .attr("height", gridSize/2)
-              .attr("class", function(d,i) {
-                if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
-                else {return "bordered"}
-              })
-              .style("fill", function(d) {
-                if (d.value < 1 ) {return "#00B49B";}
-                else if (d.value === 2) {return "#F2F2F2";}
-                else { return "#D46D7A"; }
-              });
+              //bottom right square
+              cards.enter().append("rect")
+                  .attr("x", function(d) { return (d.day - 1) * gridSize + gridSize/2; })
+                  .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
+                  .attr("width", gridSize/2)
+                  .attr("height", gridSize/2)
+                  .attr("class", function(d,i) {
+                    if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
+                    else {return "bordered"}
+                  })
+                  .style("fill", function(d) {
+                    if (d.value < 1 ) {return "#00B49B";}
+                    else if (d.value === 2) {return "#F2F2F2";}
+                    else { return "#D46D7A"; }
+                  });
 
-          //white frame for spacing
-          cards.enter().append("rect")
-              .attr("x", function(d) { return (d.day - 1) * gridSize; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize; })
-              .attr("width", gridSize)
-              .attr("height", gridSize)
-              .style("stroke-width", 7)
-              .style("stroke", "white")
-              .attr("fill", "none");
+              //white frame for spacing
+              cards.enter().append("rect")
+                  .attr("x", function(d) { return (d.day - 1) * gridSize; })
+                  .attr("y", function(d) { return (d.people - 1) * gridSize; })
+                  .attr("width", gridSize)
+                  .attr("height", gridSize)
+                  .style("stroke-width", 7)
+                  .style("stroke", "white")
+                  .attr("fill", "none");
 
-          //today highlight
-          cards.enter().append("rect")
-              .attr("x", function(d) { return (iToday - 1) * gridSize ; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize ; })
-              .attr("width", gridSize)
-              .attr("height", gridSize)
-              .style("fill", "none")
-              .style("stroke-width", 7)
-              .style("stroke", "lightGray");
-
-          //today highlight frame
-          cards.enter().append("rect")
-              .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
-              .attr("y", -2 )
-              .attr("width", gridSize + 5)
-              .attr("height", (gridSize+2) * ppl.length)
-              .style("fill", "none")
-              .style("stroke-width", 3)
-              .style("stroke", "white");
+              // //today highlight
+              // cards.enter().append("rect")
+              //     .attr("x", function(d) { return (iToday - 1) * gridSize ; })
+              //     .attr("y", function(d) { return (d.people - 1) * gridSize ; })
+              //     .attr("width", gridSize)
+              //     .attr("height", gridSize)
+              //     .style("fill", "none")
+              //     .style("stroke-width", 7)
+              //     .style("stroke", "lightGray");
+              //
+              // //today highlight frame
+              // cards.enter().append("rect")
+              //     .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
+              //     .attr("y", -2 )
+              //     .attr("width", gridSize + 4)
+              //     .attr("height", (gridSize+2) * ppl.length)
+              //     .style("fill", "none")
+              //     .style("stroke-width", 2)
+              //     .style("stroke", "white");
 
           //overlay for tooltip
           cards.enter().append("rect")
@@ -339,7 +302,7 @@
                       div1.style("left", (d3.event.pageX) + "px")
                       .style("top", (d3.event.pageY-10) + "px");
 
-                      //console.log("today", today);
+                      console.log("today", today);
 
                })
               .on("mouseout", function () {
