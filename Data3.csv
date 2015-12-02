@@ -1,533 +1,533 @@
-personName,people,side,day,dayName,dayDate,project1,project1Value,project2,project2Value,project3,project3Value,value
-Doug,1,Strategy,1,Monday,11/30,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,2,Tuesday,12/1,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,3,Wednesday,12/2,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,4,Thursday,12/3,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,5,Friday,12/4,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,6,Saturday,12/5,Visa Olympics,0,Nike,0,,,0
-Doug,1,Strategy,7,Sunday,12/6,Visa Olympics,0,Nike,0,,,0
-Doug,1,Strategy,8,Monday,12/7,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,9,Tuesday,12/8,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,10,Wednesday,12/9,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,11,Thursday,12/10,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,12,Friday,12/11,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,13,Saturday,12/12,Visa Olympics,0,Nike,0,,,0
-Doug,1,Strategy,14,Sunday,12/13,Visa Olympics,0,Nike,0,,,0
-Doug,1,Strategy,15,Monday,12/14,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,16,Tuesday,12/15,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,17,Wednesday,12/16,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,18,Thursday,12/17,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,19,Friday,12/18,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,20,Saturday,12/19,Visa Olympics,0,Nike,0,,,0
-Doug,1,Strategy,21,Sunday,12/20,Visa Olympics,0,Nike,0,,,0
-Doug,1,Strategy,22,Monday,12/21,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,23,Tuesday,12/22,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,24,Wednesday,12/23,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,25,Thursday,12/24,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,26,Friday,12/25,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,27,Saturday,12/26,Visa Olympics,0.5,Nike,0.5,,,1
-Doug,1,Strategy,28,Sunday,12/27,Visa Olympics,0.5,Nike,0.5,,,1
-Kevin,2,Strategy,1,Monday,11/30,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,2,Tuesday,12/1,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,3,Wednesday,12/2,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,4,Thursday,12/3,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,5,Friday,12/4,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,6,Saturday,12/5,AB,0,Activion Consumer Journey,0,,,0
-Kevin,2,Strategy,7,Sunday,12/6,AB,0,Activion Consumer Journey,0,,,0
-Kevin,2,Strategy,8,Monday,12/7,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,9,Tuesday,12/8,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,10,Wednesday,12/9,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,11,Thursday,12/10,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,12,Friday,12/11,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,13,Saturday,12/12,AB,0,Activion Consumer Journey,0,,,0
-Kevin,2,Strategy,14,Sunday,12/13,AB,0,Activion Consumer Journey,0,,,0
-Kevin,2,Strategy,15,Monday,12/14,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,16,Tuesday,12/15,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,17,Wednesday,12/16,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,18,Thursday,12/17,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,19,Friday,12/18,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,20,Saturday,12/19,AB,0,Activion Consumer Journey,0,,,0
-Kevin,2,Strategy,21,Sunday,12/20,AB,0,Activion Consumer Journey,0,,,0
-Kevin,2,Strategy,22,Monday,12/21,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,23,Tuesday,12/22,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,24,Wednesday,12/23,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,25,Thursday,12/24,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,26,Friday,12/25,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,27,Saturday,12/26,AB,0.5,Activion Consumer Journey,0.5,,,1
-Kevin,2,Strategy,28,Sunday,12/27,AB,0.5,Activion Consumer Journey,0.5,,,1
-Matthew,3,Strategy,1,Monday,11/30,Levi's,1,,,,,1
-Matthew,3,Strategy,2,Tuesday,12/1,Levi's,1,,,,,1
-Matthew,3,Strategy,3,Wednesday,12/2,Levi's,1,,,,,1
-Matthew,3,Strategy,4,Thursday,12/3,Levi's,1,,,,,1
-Matthew,3,Strategy,5,Friday,12/4,Levi's,1,,,,,1
-Matthew,3,Strategy,6,Saturday,12/5,Levi's,0,,,,,0
-Matthew,3,Strategy,7,Sunday,12/6,Levi's,0,,,,,0
-Matthew,3,Strategy,8,Monday,12/7,Levi's,1,,,,,1
-Matthew,3,Strategy,9,Tuesday,12/8,Levi's,1,,,,,1
-Matthew,3,Strategy,10,Wednesday,12/9,Levi's,1,,,,,1
-Matthew,3,Strategy,11,Thursday,12/10,Levi's,1,,,,,1
-Matthew,3,Strategy,12,Friday,12/11,Levi's,1,,,,,1
-Matthew,3,Strategy,13,Saturday,12/12,Levi's,0,,,,,0
-Matthew,3,Strategy,14,Sunday,12/13,Levi's,0,,,,,0
-Matthew,3,Strategy,15,Monday,12/14,Levi's,1,,,,,1
-Matthew,3,Strategy,16,Tuesday,12/15,Levi's,1,,,,,1
-Matthew,3,Strategy,17,Wednesday,12/16,Levi's,1,,,,,1
-Matthew,3,Strategy,18,Thursday,12/17,Levi's,1,,,,,1
-Matthew,3,Strategy,19,Friday,12/18,Levi's,1,,,,,1
-Matthew,3,Strategy,20,Saturday,12/19,Levi's,0,,,,,0
-Matthew,3,Strategy,21,Sunday,12/20,Levi's,0,,,,,0
-Matthew,3,Strategy,22,Monday,12/21,Levi's,1,,,,,1
-Matthew,3,Strategy,23,Tuesday,12/22,Levi's,1,,,,,1
-Matthew,3,Strategy,24,Wednesday,12/23,Levi's,1,,,,,1
-Matthew,3,Strategy,25,Thursday,12/24,Levi's,1,,,,,1
-Matthew,3,Strategy,26,Friday,12/25,Levi's,1,,,,,1
-Matthew,3,Strategy,27,Saturday,12/26,Levi's,0,,,,,0
-Matthew,3,Strategy,28,Sunday,12/27,Levi's,0,,,,,0
-Sean,4,Strategy,1,Monday,11/30,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,2,Tuesday,12/1,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,3,Wednesday,12/2,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,4,Thursday,12/3,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,5,Friday,12/4,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,6,Saturday,12/5,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,7,Sunday,12/6,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,8,Monday,12/7,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,9,Tuesday,12/8,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,10,Wednesday,12/9,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,11,Thursday,12/10,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,12,Friday,12/11,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,13,Saturday,12/12,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,14,Sunday,12/13,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,15,Monday,12/14,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,16,Tuesday,12/15,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,17,Wednesday,12/16,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,18,Thursday,12/17,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,19,Friday,12/18,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,20,Saturday,12/19,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,21,Sunday,12/20,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,22,Monday,12/21,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,23,Tuesday,12/22,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,24,Wednesday,12/23,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,25,Thursday,12/24,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,26,Friday,12/25,Audi,0.5,Polaris,0.5,,,1
-Sean,4,Strategy,27,Saturday,12/26,Audi,0,Polaris,0,,,0
-Sean,4,Strategy,28,Sunday,12/27,Audi,0,Polaris,0,,,0
-Katrina,5,Strategy,1,Monday,11/30,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,2,Tuesday,12/1,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,3,Wednesday,12/2,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,4,Thursday,12/3,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,5,Friday,12/4,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,6,Saturday,12/5,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,7,Sunday,12/6,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,8,Monday,12/7,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,9,Tuesday,12/8,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,10,Wednesday,12/9,Jordan,0.5,Internal,0,,,0.5
-Katrina,5,Strategy,11,Thursday,12/10,Jordan,0.5,Internal,0,,,0.5
-Katrina,5,Strategy,12,Friday,12/11,Jordan,0.5,Internal,0,,,0.5
-Katrina,5,Strategy,13,Saturday,12/12,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,14,Sunday,12/13,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,15,Monday,12/14,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,16,Tuesday,12/15,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,17,Wednesday,12/16,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,18,Thursday,12/17,Jordan,0.5,Internal,0.5,,,1
-Katrina,5,Strategy,19,Friday,12/18,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,20,Saturday,12/19,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,21,Sunday,12/20,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,22,Monday,12/21,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,23,Tuesday,12/22,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,24,Wednesday,12/23,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,25,Thursday,12/24,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,26,Friday,12/25,Jordan,0.5,Internal,0.25,,,0.75
-Katrina,5,Strategy,27,Saturday,12/26,Jordan,0,Internal,0,,,0
-Katrina,5,Strategy,28,Sunday,12/27,Jordan,0,Internal,0,,,0
-Gaby,6,Strategy,1,Monday,11/30,Audi,1,,,,,1
-Gaby,6,Strategy,2,Tuesday,12/1,Audi,1,,,,,1
-Gaby,6,Strategy,3,Wednesday,12/2,Audi,1,,,,,1
-Gaby,6,Strategy,4,Thursday,12/3,Audi,1,,,,,1
-Gaby,6,Strategy,5,Friday,12/4,Audi,1,,,,,1
-Gaby,6,Strategy,6,Saturday,12/5,Audi,0,,,,,0
-Gaby,6,Strategy,7,Sunday,12/6,Audi,0,,,,,0
-Gaby,6,Strategy,8,Monday,12/7,Audi,1,,,,,1
-Gaby,6,Strategy,9,Tuesday,12/8,Audi,1,,,,,1
-Gaby,6,Strategy,10,Wednesday,12/9,Audi,1,,,,,1
-Gaby,6,Strategy,11,Thursday,12/10,Audi,1,,,,,1
-Gaby,6,Strategy,12,Friday,12/11,Audi,1,,,,,1
-Gaby,6,Strategy,13,Saturday,12/12,Audi,0,,,,,0
-Gaby,6,Strategy,14,Sunday,12/13,Audi,0,,,,,0
-Gaby,6,Strategy,15,Monday,12/14,Audi,1,,,,,1
-Gaby,6,Strategy,16,Tuesday,12/15,Audi,1,,,,,1
-Gaby,6,Strategy,17,Wednesday,12/16,Audi,1,,,,,1
-Gaby,6,Strategy,18,Thursday,12/17,Audi,1,,,,,1
-Gaby,6,Strategy,19,Friday,12/18,Audi,1,,,,,1
-Gaby,6,Strategy,20,Saturday,12/19,Audi,0,,,,,0
-Gaby,6,Strategy,21,Sunday,12/20,Audi,0,,,,,0
-Gaby,6,Strategy,22,Monday,12/21,Audi,1,,,,,1
-Gaby,6,Strategy,23,Tuesday,12/22,Audi,1,,,,,1
-Gaby,6,Strategy,24,Wednesday,12/23,Audi,1,,,,,1
-Gaby,6,Strategy,25,Thursday,12/24,Audi,1,,,,,1
-Gaby,6,Strategy,26,Friday,12/25,Audi,1,,,,,1
-Gaby,6,Strategy,27,Saturday,12/26,Audi,0,,,,,0
-Gaby,6,Strategy,28,Sunday,12/27,Audi,0,,,,,0
-Tjis,7,Strategy,1,Monday,11/30,Activision,1,,,,,1
-Tjis,7,Strategy,2,Tuesday,12/1,Activision,1,,,,,1
-Tjis,7,Strategy,3,Wednesday,12/2,Activision,1,,,,,1
-Tjis,7,Strategy,4,Thursday,12/3,Activision,1,,,,,1
-Tjis,7,Strategy,5,Friday,12/4,Activision,1,,,,,1
-Tjis,7,Strategy,6,Saturday,12/5,Activision,0,,,,,0
-Tjis,7,Strategy,7,Sunday,12/6,Activision,0,,,,,0
-Tjis,7,Strategy,8,Monday,12/7,Activision,1,,,,,1
-Tjis,7,Strategy,9,Tuesday,12/8,Activision,1,,,,,1
-Tjis,7,Strategy,10,Wednesday,12/9,Activision,1,,,,,1
-Tjis,7,Strategy,11,Thursday,12/10,Activision,1,,,,,1
-Tjis,7,Strategy,12,Friday,12/11,Activision,1,,,,,1
-Tjis,7,Strategy,13,Saturday,12/12,Activision,0,,,,,0
-Tjis,7,Strategy,14,Sunday,12/13,Activision,0,,,,,0
-Tjis,7,Strategy,15,Monday,12/14,Activision,1,,,,,1
-Tjis,7,Strategy,16,Tuesday,12/15,Activision,1,,,,,1
-Tjis,7,Strategy,17,Wednesday,12/16,Activision,1,,,,,1
-Tjis,7,Strategy,18,Thursday,12/17,Activision,1,,,,,1
-Tjis,7,Strategy,19,Friday,12/18,Activision,1,,,,,1
-Tjis,7,Strategy,20,Saturday,12/19,Activision,0,,,,,0
-Tjis,7,Strategy,21,Sunday,12/20,Activision,0,,,,,0
-Tjis,7,Strategy,22,Monday,12/21,Activision,1,,,,,1
-Tjis,7,Strategy,23,Tuesday,12/22,Activision,1,,,,,1
-Tjis,7,Strategy,24,Wednesday,12/23,Activision,1,,,,,1
-Tjis,7,Strategy,25,Thursday,12/24,Activision,1,,,,,1
-Tjis,7,Strategy,26,Friday,12/25,Activision,1,,,,,1
-Tjis,7,Strategy,27,Saturday,12/26,Activision,0,,,,,0
-Tjis,7,Strategy,28,Sunday,12/27,Activision,0,,,,,0
-Kat,8,Strategy,1,Monday,11/30,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,2,Tuesday,12/1,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,3,Wednesday,12/2,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,4,Thursday,12/3,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,5,Friday,12/4,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,6,Saturday,12/5,Levi's,0,Visa,0,,,0
-Kat,8,Strategy,7,Sunday,12/6,Levi's,0,Visa,0,,,0
-Kat,8,Strategy,8,Monday,12/7,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,9,Tuesday,12/8,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,10,Wednesday,12/9,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,11,Thursday,12/10,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,12,Friday,12/11,Levi's,0.5,Visa,0.5,,,1
-Kat,8,Strategy,13,Saturday,12/12,Levi's,0,Visa,0,,,0
-Kat,8,Strategy,14,Sunday,12/13,Levi's,0,Visa,0,,,0
-Kat,8,Strategy,15,Monday,12/14,Levi's,0.5,Visa,0,,,0.5
-Kat,8,Strategy,16,Tuesday,12/15,Levi's,0.5,Visa,0,,,0.5
-Kat,8,Strategy,17,Wednesday,12/16,Levi's,0.5,Visa,0,,,0.5
-Kat,8,Strategy,18,Thursday,12/17,Levi's,0.5,Visa,0,,,0.5
-Kat,8,Strategy,19,Friday,12/18,Levi's,0.5,Visa,0,,,0.5
-Kat,8,Strategy,20,Saturday,12/19,Levi's,0,Visa,0,,,0
-Kat,8,Strategy,21,Sunday,12/20,Levi's,0,Visa,0.25,,,0.25
-Kat,8,Strategy,22,Monday,12/21,Levi's,0.5,Visa,0.25,,,0.75
-Kat,8,Strategy,23,Tuesday,12/22,Levi's,0.5,Visa,0.25,,,0.75
-Kat,8,Strategy,24,Wednesday,12/23,Levi's,0.5,Visa,0.25,,,0.75
-Kat,8,Strategy,25,Thursday,12/24,Levi's,0.5,Visa,0.25,,,0.75
-Kat,8,Strategy,26,Friday,12/25,Levi's,0.5,Visa,0.25,,,0.75
-Kat,8,Strategy,27,Saturday,12/26,Levi's,0,Visa,0,,,0
-Kat,8,Strategy,28,Sunday,12/27,Levi's,0,Visa,0,,,0
-Charlotte,9,Strategy,1,Monday,11/30,Polaris,0.25,Visa,0.25,Audi,0,0.5
-Charlotte,9,Strategy,2,Tuesday,12/1,Polaris,0.25,Visa,0.25,Audi,0,0.5
-Charlotte,9,Strategy,3,Wednesday,12/2,Polaris,0.25,Visa,0.25,Audi,0,0.5
-Charlotte,9,Strategy,4,Thursday,12/3,Polaris,0.25,Visa,0.25,Audi,0,0.5
-Charlotte,9,Strategy,5,Friday,12/4,Polaris,0.25,Visa,0.25,Audi,0,0.5
-Charlotte,9,Strategy,6,Saturday,12/5,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,7,Sunday,12/6,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,8,Monday,12/7,Polaris,0.25,Visa,0,Audi,0,0.25
-Charlotte,9,Strategy,9,Tuesday,12/8,Polaris,0.25,Visa,0,Audi,0,0.25
-Charlotte,9,Strategy,10,Wednesday,12/9,Polaris,0.25,Visa,0,Audi,0,0.25
-Charlotte,9,Strategy,11,Thursday,12/10,Polaris,0.25,Visa,0,Audi,0,0.25
-Charlotte,9,Strategy,12,Friday,12/11,Polaris,0.25,Visa,0,Audi,0,0.25
-Charlotte,9,Strategy,13,Saturday,12/12,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,14,Sunday,12/13,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,15,Monday,12/14,Polaris,0.25,Visa,0,Audi,0.25,0.5
-Charlotte,9,Strategy,16,Tuesday,12/15,Polaris,0.25,Visa,0,Audi,0.25,0.5
-Charlotte,9,Strategy,17,Wednesday,12/16,Polaris,0.25,Visa,0,Audi,0.25,0.5
-Charlotte,9,Strategy,18,Thursday,12/17,Polaris,0.25,Visa,0,Audi,0.25,0.5
-Charlotte,9,Strategy,19,Friday,12/18,Polaris,0.25,Visa,0,Audi,0.25,0.5
-Charlotte,9,Strategy,20,Saturday,12/19,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,21,Sunday,12/20,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,22,Monday,12/21,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
-Charlotte,9,Strategy,23,Tuesday,12/22,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
-Charlotte,9,Strategy,24,Wednesday,12/23,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
-Charlotte,9,Strategy,25,Thursday,12/24,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
-Charlotte,9,Strategy,26,Friday,12/25,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
-Charlotte,9,Strategy,27,Saturday,12/26,Polaris,0,Visa,0,Audi,0,0
-Charlotte,9,Strategy,28,Sunday,12/27,Polaris,0,Visa,0,Audi,0,0
-Charles,10,Strategy,1,Monday,11/30,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
-Charles,10,Strategy,2,Tuesday,12/1,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
-Charles,10,Strategy,3,Wednesday,12/2,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
-Charles,10,Strategy,4,Thursday,12/3,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
-Charles,10,Strategy,5,Friday,12/4,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
-Charles,10,Strategy,6,Saturday,12/5,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,7,Sunday,12/6,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,8,Monday,12/7,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
-Charles,10,Strategy,9,Tuesday,12/8,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
-Charles,10,Strategy,10,Wednesday,12/9,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
-Charles,10,Strategy,11,Thursday,12/10,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
-Charles,10,Strategy,12,Friday,12/11,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
-Charles,10,Strategy,13,Saturday,12/12,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,14,Sunday,12/13,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,15,Monday,12/14,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
-Charles,10,Strategy,16,Tuesday,12/15,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
-Charles,10,Strategy,17,Wednesday,12/16,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
-Charles,10,Strategy,18,Thursday,12/17,Start UX Resource chart,0,Best Buy Process,0.25,Timeline,0.5,0.75
-Charles,10,Strategy,19,Friday,12/18,Start UX Resource chart,0,Best Buy Process,0.25,Timeline,0.5,0.75
-Charles,10,Strategy,20,Saturday,12/19,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,21,Sunday,12/20,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,22,Monday,12/21,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
-Charles,10,Strategy,23,Tuesday,12/22,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
-Charles,10,Strategy,24,Wednesday,12/23,Start UX Resource chart,0,Best Buy Process,0,Timeline,0.5,0.5
-Charles,10,Strategy,25,Thursday,12/24,Start UX Resource chart,0,Best Buy Process,0,Timeline,0.5,0.5
-Charles,10,Strategy,26,Friday,12/25,Start UX Resource chart,0,Best Buy Process,0,Timeline,0.5,0.5
-Charles,10,Strategy,27,Saturday,12/26,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Charles,10,Strategy,28,Sunday,12/27,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
-Kelly,11,Strategy,1,Monday,11/30,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,2,Tuesday,12/1,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,3,Wednesday,12/2,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,4,Thursday,12/3,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,5,Friday,12/4,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,6,Saturday,12/5,AB,0,Internal,0,,,0
-Kelly,11,Strategy,7,Sunday,12/6,AB,0,Internal,0,,,0
-Kelly,11,Strategy,8,Monday,12/7,AB,0.5,Internal,0.25,,,0.75
-Kelly,11,Strategy,9,Tuesday,12/8,AB,0.5,Internal,0.25,,,0.75
-Kelly,11,Strategy,10,Wednesday,12/9,AB,0.5,Internal,0.25,,,0.75
-Kelly,11,Strategy,11,Thursday,12/10,AB,0.5,Internal,0.25,,,0.75
-Kelly,11,Strategy,12,Friday,12/11,AB,0.5,Internal,0.25,,,0.75
-Kelly,11,Strategy,13,Saturday,12/12,AB,0,Internal,0,,,0
-Kelly,11,Strategy,14,Sunday,12/13,AB,0,Internal,0,,,0
-Kelly,11,Strategy,15,Monday,12/14,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,16,Tuesday,12/15,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,17,Wednesday,12/16,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,18,Thursday,12/17,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,19,Friday,12/18,AB,0.5,Internal,0.5,,,1
-Kelly,11,Strategy,20,Saturday,12/19,AB,0,Internal,0,,,0
-Kelly,11,Strategy,21,Sunday,12/20,AB,0,Internal,0,,,0
-Kelly,11,Strategy,22,Monday,12/21,AB,0,Internal,0.25,,,0.25
-Kelly,11,Strategy,23,Tuesday,12/22,AB,0,Internal,0.25,,,0.25
-Kelly,11,Strategy,24,Wednesday,12/23,AB,0,Internal,0.25,,,0.25
-Kelly,11,Strategy,25,Thursday,12/24,AB,0,Internal,0.25,,,0.25
-Kelly,11,Strategy,26,Friday,12/25,AB,0,Internal,0.25,,,0.25
-Kelly,11,Strategy,27,Saturday,12/26,AB,0,Internal,0,,,0
-Kelly,11,Strategy,28,Sunday,12/27,AB,0,Internal,0,,,0
-Faith,12,UX,1,Monday,11/30,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,2,Tuesday,12/1,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,3,Wednesday,12/2,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,4,Thursday,12/3,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,5,Friday,12/4,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,6,Saturday,12/5,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,7,Sunday,12/6,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,8,Monday,12/7,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,9,Tuesday,12/8,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,10,Wednesday,12/9,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,11,Thursday,12/10,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,12,Friday,12/11,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,13,Saturday,12/12,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,14,Sunday,12/13,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,15,Monday,12/14,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,16,Tuesday,12/15,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,17,Wednesday,12/16,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,18,Thursday,12/17,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,19,Friday,12/18,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,20,Saturday,12/19,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,21,Sunday,12/20,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,22,Monday,12/21,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,23,Tuesday,12/22,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,24,Wednesday,12/23,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,25,Thursday,12/24,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,26,Friday,12/25,Audi,0.25,Polaris,0.5,Internal,0.25,1
-Faith,12,UX,27,Saturday,12/26,Audi,0,Polaris,0,Internal,0,0
-Faith,12,UX,28,Sunday,12/27,Audi,0,Polaris,0,Internal,0,0
-Christoph,13,UX,1,Monday,11/30,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,2,Tuesday,12/1,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,3,Wednesday,12/2,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,4,Thursday,12/3,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,5,Friday,12/4,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,6,Saturday,12/5,Audi,0,Polaris,0,,,0
-Christoph,13,UX,7,Sunday,12/6,Audi,0,Polaris,0,,,0
-Christoph,13,UX,8,Monday,12/7,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,9,Tuesday,12/8,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,10,Wednesday,12/9,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,11,Thursday,12/10,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,12,Friday,12/11,Audi,0.75,Polaris,0.25,,,1
-Christoph,13,UX,13,Saturday,12/12,Audi,0,Polaris,0,,,0
-Christoph,13,UX,14,Sunday,12/13,Audi,0,Polaris,0,,,0
-Christoph,13,UX,15,Monday,12/14,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,16,Tuesday,12/15,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,17,Wednesday,12/16,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,18,Thursday,12/17,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,19,Friday,12/18,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,20,Saturday,12/19,Audi,0,Polaris,0,,,0
-Christoph,13,UX,21,Sunday,12/20,Audi,0,Polaris,0,,,0
-Christoph,13,UX,22,Monday,12/21,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,23,Tuesday,12/22,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,24,Wednesday,12/23,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,25,Thursday,12/24,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,26,Friday,12/25,Audi,0.25,Polaris,0.25,,,0.5
-Christoph,13,UX,27,Saturday,12/26,Audi,0,Polaris,0,,,0
-Christoph,13,UX,28,Sunday,12/27,Audi,0,Polaris,0,,,0
-Ricky,14,UX,1,Monday,11/30,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,2,Tuesday,12/1,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,3,Wednesday,12/2,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,4,Thursday,12/3,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,5,Friday,12/4,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,6,Saturday,12/5,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,7,Sunday,12/6,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,8,Monday,12/7,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,9,Tuesday,12/8,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,10,Wednesday,12/9,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,11,Thursday,12/10,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,12,Friday,12/11,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,13,Saturday,12/12,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,14,Sunday,12/13,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,15,Monday,12/14,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,16,Tuesday,12/15,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,17,Wednesday,12/16,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,18,Thursday,12/17,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,19,Friday,12/18,Jordan,0.5,Levi's,0.25,,,0.75
-Ricky,14,UX,20,Saturday,12/19,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,21,Sunday,12/20,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,22,Monday,12/21,Jordan,0,Levi's,0.25,,,0.25
-Ricky,14,UX,23,Tuesday,12/22,Jordan,0,Levi's,0.25,,,0.25
-Ricky,14,UX,24,Wednesday,12/23,Jordan,0,Levi's,0.25,,,0.25
-Ricky,14,UX,25,Thursday,12/24,Jordan,0,Levi's,0.25,,,0.25
-Ricky,14,UX,26,Friday,12/25,Jordan,0,Levi's,0.25,,,0.25
-Ricky,14,UX,27,Saturday,12/26,Jordan,0,Levi's,0,,,0
-Ricky,14,UX,28,Sunday,12/27,Jordan,0,Levi's,0,,,0
-Noah,15,UX,1,Monday,11/30,Polaris,1,,,,,1
-Noah,15,UX,2,Tuesday,12/1,Polaris,1,,,,,1
-Noah,15,UX,3,Wednesday,12/2,Polaris,1,,,,,1
-Noah,15,UX,4,Thursday,12/3,Polaris,1,,,,,1
-Noah,15,UX,5,Friday,12/4,Polaris,1,,,,,1
-Noah,15,UX,6,Saturday,12/5,Polaris,0,,,,,0
-Noah,15,UX,7,Sunday,12/6,Polaris,0,,,,,0
-Noah,15,UX,8,Monday,12/7,Polaris,1,,,,,1
-Noah,15,UX,9,Tuesday,12/8,Polaris,1,,,,,1
-Noah,15,UX,10,Wednesday,12/9,Polaris,1,,,,,1
-Noah,15,UX,11,Thursday,12/10,Polaris,1,,,,,1
-Noah,15,UX,12,Friday,12/11,Polaris,1,,,,,1
-Noah,15,UX,13,Saturday,12/12,Polaris,0,,,,,0
-Noah,15,UX,14,Sunday,12/13,Polaris,0,,,,,0
-Noah,15,UX,15,Monday,12/14,Polaris,1,,,,,1
-Noah,15,UX,16,Tuesday,12/15,Polaris,1,,,,,1
-Noah,15,UX,17,Wednesday,12/16,Polaris,1,,,,,1
-Noah,15,UX,18,Thursday,12/17,Polaris,1,,,,,1
-Noah,15,UX,19,Friday,12/18,Polaris,1,,,,,1
-Noah,15,UX,20,Saturday,12/19,Polaris,0,,,,,0
-Noah,15,UX,21,Sunday,12/20,Polaris,0,,,,,0
-Noah,15,UX,22,Monday,12/21,Polaris,1,,,,,1
-Noah,15,UX,23,Tuesday,12/22,Polaris,1,,,,,1
-Noah,15,UX,24,Wednesday,12/23,Polaris,1,,,,,1
-Noah,15,UX,25,Thursday,12/24,Polaris,1,,,,,1
-Noah,15,UX,26,Friday,12/25,Polaris,1,,,,,1
-Noah,15,UX,27,Saturday,12/26,Polaris,0,,,,,0
-Noah,15,UX,28,Sunday,12/27,Polaris,0,,,,,0
-Simon,16,UX,1,Monday,11/30,Activision,0.25,,,,,0.25
-Simon,16,UX,2,Tuesday,12/1,Activision,0.25,,,,,0.25
-Simon,16,UX,3,Wednesday,12/2,Activision,0.25,,,,,0.25
-Simon,16,UX,4,Thursday,12/3,Activision,0.25,,,,,0.25
-Simon,16,UX,5,Friday,12/4,Activision,0.25,,,,,0.25
-Simon,16,UX,6,Saturday,12/5,Activision,0,,,,,0
-Simon,16,UX,7,Sunday,12/6,Activision,0,,,,,0
-Simon,16,UX,8,Monday,12/7,Activision,0.25,,,,,0.25
-Simon,16,UX,9,Tuesday,12/8,Activision,0.25,,,,,0.25
-Simon,16,UX,10,Wednesday,12/9,Activision,0.25,,,,,0.25
-Simon,16,UX,11,Thursday,12/10,Activision,0.25,,,,,0.25
-Simon,16,UX,12,Friday,12/11,Activision,0.25,,,,,0.25
-Simon,16,UX,13,Saturday,12/12,Activision,0,,,,,0
-Simon,16,UX,14,Sunday,12/13,Activision,0,,,,,0
-Simon,16,UX,15,Monday,12/14,Activision,0.25,,,,,0.25
-Simon,16,UX,16,Tuesday,12/15,Activision,0.25,,,,,0.25
-Simon,16,UX,17,Wednesday,12/16,Activision,0.25,,,,,0.25
-Simon,16,UX,18,Thursday,12/17,Activision,0.25,,,,,0.25
-Simon,16,UX,19,Friday,12/18,Activision,0.25,,,,,0.25
-Simon,16,UX,20,Saturday,12/19,Activision,0,,,,,0
-Simon,16,UX,21,Sunday,12/20,Activision,0,,,,,0
-Simon,16,UX,22,Monday,12/21,Activision,0.25,,,,,0.25
-Simon,16,UX,23,Tuesday,12/22,Activision,0.25,,,,,0.25
-Simon,16,UX,24,Wednesday,12/23,Activision,0.25,,,,,0.25
-Simon,16,UX,25,Thursday,12/24,Activision,0.25,,,,,0.25
-Simon,16,UX,26,Friday,12/25,Activision,0.25,,,,,0.25
-Simon,16,UX,27,Saturday,12/26,Activision,0,,,,,0
-Simon,16,UX,28,Sunday,12/27,Activision,0,,,,,0
-Christine,17,UX,1,Monday,11/30,Polaris,1,,,,,1
-Christine,17,UX,2,Tuesday,12/1,Polaris,1,,,,,1
-Christine,17,UX,3,Wednesday,12/2,Polaris,1,,,,,1
-Christine,17,UX,4,Thursday,12/3,Polaris,1,,,,,1
-Christine,17,UX,5,Friday,12/4,Polaris,1,,,,,1
-Christine,17,UX,6,Saturday,12/5,Polaris,0,,,,,0
-Christine,17,UX,7,Sunday,12/6,Polaris,0,,,,,0
-Christine,17,UX,8,Monday,12/7,Polaris,1,,,,,1
-Christine,17,UX,9,Tuesday,12/8,Polaris,1,,,,,1
-Christine,17,UX,10,Wednesday,12/9,Polaris,1,,,,,1
-Christine,17,UX,11,Thursday,12/10,Polaris,1,,,,,1
-Christine,17,UX,12,Friday,12/11,Polaris,1,,,,,1
-Christine,17,UX,13,Saturday,12/12,Polaris,0,,,,,0
-Christine,17,UX,14,Sunday,12/13,Polaris,0,,,,,0
-Christine,17,UX,15,Monday,12/14,Polaris,1,,,,,1
-Christine,17,UX,16,Tuesday,12/15,Polaris,1,,,,,1
-Christine,17,UX,17,Wednesday,12/16,Polaris,1,,,,,1
-Christine,17,UX,18,Thursday,12/17,Polaris,1,,,,,1
-Christine,17,UX,19,Friday,12/18,Polaris,1,,,,,1
-Christine,17,UX,20,Saturday,12/19,Polaris,0,,,,,0
-Christine,17,UX,21,Sunday,12/20,Polaris,0,,,,,0
-Christine,17,UX,22,Monday,12/21,Polaris,1,,,,,1
-Christine,17,UX,23,Tuesday,12/22,Polaris,1,,,,,1
-Christine,17,UX,24,Wednesday,12/23,Polaris,1,,,,,1
-Christine,17,UX,25,Thursday,12/24,Polaris,1,,,,,1
-Christine,17,UX,26,Friday,12/25,Polaris,1,,,,,1
-Christine,17,UX,27,Saturday,12/26,Polaris,0,,,,,0
-Christine,17,UX,28,Sunday,12/27,Polaris,0,,,,,0
-Jessica,18,UX,1,Monday,11/30,Levi's,1,,,,,1
-Jessica,18,UX,2,Tuesday,12/1,Levi's,1,,,,,1
-Jessica,18,UX,3,Wednesday,12/2,Levi's,1,,,,,1
-Jessica,18,UX,4,Thursday,12/3,Levi's,1,,,,,1
-Jessica,18,UX,5,Friday,12/4,Levi's,1,,,,,1
-Jessica,18,UX,6,Saturday,12/5,Levi's,0,,,,,0
-Jessica,18,UX,7,Sunday,12/6,Levi's,0,,,,,0
-Jessica,18,UX,8,Monday,12/7,Levi's,1,,,,,1
-Jessica,18,UX,9,Tuesday,12/8,Levi's,1,,,,,1
-Jessica,18,UX,10,Wednesday,12/9,Levi's,1,,,,,1
-Jessica,18,UX,11,Thursday,12/10,Levi's,1,,,,,1
-Jessica,18,UX,12,Friday,12/11,Levi's,1,,,,,1
-Jessica,18,UX,13,Saturday,12/12,Levi's,0,,,,,0
-Jessica,18,UX,14,Sunday,12/13,Levi's,0,,,,,0
-Jessica,18,UX,15,Monday,12/14,Levi's,1,,,,,1
-Jessica,18,UX,16,Tuesday,12/15,Levi's,1,,,,,1
-Jessica,18,UX,17,Wednesday,12/16,Levi's,1,,,,,1
-Jessica,18,UX,18,Thursday,12/17,Levi's,1,,,,,1
-Jessica,18,UX,19,Friday,12/18,Levi's,1,,,,,1
-Jessica,18,UX,20,Saturday,12/19,Levi's,0,,,,,0
-Jessica,18,UX,21,Sunday,12/20,Levi's,0,,,,,0
-Jessica,18,UX,22,Monday,12/21,Levi's,1,,,,,1
-Jessica,18,UX,23,Tuesday,12/22,Levi's,1,,,,,1
-Jessica,18,UX,24,Wednesday,12/23,Levi's,1,,,,,1
-Jessica,18,UX,25,Thursday,12/24,Levi's,1,,,,,1
-Jessica,18,UX,26,Friday,12/25,Levi's,1,,,,,1
-Jessica,18,UX,27,Saturday,12/26,Levi's,0,,,,,0
-Jessica,18,UX,28,Sunday,12/27,Levi's,0,,,,,0
-Maxine,19,UX,1,Monday,11/30,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,2,Tuesday,12/1,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,3,Wednesday,12/2,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,4,Thursday,12/3,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,5,Friday,12/4,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,6,Saturday,12/5,Audi,0,Internal,0,,,0
-Maxine,19,UX,7,Sunday,12/6,Audi,0,Internal,0,,,0
-Maxine,19,UX,8,Monday,12/7,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,9,Tuesday,12/8,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,10,Wednesday,12/9,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,11,Thursday,12/10,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,12,Friday,12/11,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,13,Saturday,12/12,Audi,0,Internal,0,,,0
-Maxine,19,UX,14,Sunday,12/13,Audi,0,Internal,0,,,0
-Maxine,19,UX,15,Monday,12/14,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,16,Tuesday,12/15,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,17,Wednesday,12/16,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,18,Thursday,12/17,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,19,Friday,12/18,Audi,0.5,Internal,0.5,,,1
-Maxine,19,UX,20,Saturday,12/19,Audi,0,Internal,0,,,0
-Maxine,19,UX,21,Sunday,12/20,Audi,0,Internal,0,,,0
-Maxine,19,UX,22,Monday,12/21,Audi,0,Internal,0,,,0
-Maxine,19,UX,23,Tuesday,12/22,Audi,0,Internal,0,,,0
-Maxine,19,UX,24,Wednesday,12/23,Audi,0,Internal,0,,,0
-Maxine,19,UX,25,Thursday,12/24,Audi,0,Internal,0,,,0
-Maxine,19,UX,26,Friday,12/25,Audi,0,Internal,0,,,0
-Maxine,19,UX,27,Saturday,12/26,Audi,0,Internal,0,,,0
-Maxine,19,UX,28,Sunday,12/27,Audi,0,Internal,0,,,0
+personName,people,side,day,dayName,dayDate,holiday,project1,project1Value,project2,project2Value,project3,project3Value,value
+Doug,1,Strategy,1,Monday,11/30,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,2,Tuesday,12/1,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,3,Wednesday,12/2,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,4,Thursday,12/3,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,5,Friday,12/4,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,6,Saturday,12/5,no,Visa Olympics,0,Nike,0,,,0
+Doug,1,Strategy,7,Sunday,12/6,no,Visa Olympics,0,Nike,0,,,0
+Doug,1,Strategy,8,Monday,12/7,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,9,Tuesday,12/8,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,10,Wednesday,12/9,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,11,Thursday,12/10,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,12,Friday,12/11,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,13,Saturday,12/12,no,Visa Olympics,0,Nike,0,,,0
+Doug,1,Strategy,14,Sunday,12/13,no,Visa Olympics,0,Nike,0,,,0
+Doug,1,Strategy,15,Monday,12/14,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,16,Tuesday,12/15,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,17,Wednesday,12/16,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,18,Thursday,12/17,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,19,Friday,12/18,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,20,Saturday,12/19,no,Visa Olympics,0,Nike,0,,,0
+Doug,1,Strategy,21,Sunday,12/20,no,Visa Olympics,0,Nike,0,,,0
+Doug,1,Strategy,22,Monday,12/21,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,23,Tuesday,12/22,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,24,Wednesday,12/23,no,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,25,Thursday,12/24,yes,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,26,Friday,12/25,yes,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,27,Saturday,12/26,yes,Visa Olympics,0.5,Nike,0.5,,,1
+Doug,1,Strategy,28,Sunday,12/27,yes,Visa Olympics,0.5,Nike,0.5,,,1
+Kevin,2,Strategy,1,Monday,11/30,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,2,Tuesday,12/1,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,3,Wednesday,12/2,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,4,Thursday,12/3,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,5,Friday,12/4,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,6,Saturday,12/5,no,AB,0,Activion Consumer Journey,0,,,0
+Kevin,2,Strategy,7,Sunday,12/6,no,AB,0,Activion Consumer Journey,0,,,0
+Kevin,2,Strategy,8,Monday,12/7,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,9,Tuesday,12/8,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,10,Wednesday,12/9,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,11,Thursday,12/10,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,12,Friday,12/11,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,13,Saturday,12/12,no,AB,0,Activion Consumer Journey,0,,,0
+Kevin,2,Strategy,14,Sunday,12/13,no,AB,0,Activion Consumer Journey,0,,,0
+Kevin,2,Strategy,15,Monday,12/14,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,16,Tuesday,12/15,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,17,Wednesday,12/16,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,18,Thursday,12/17,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,19,Friday,12/18,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,20,Saturday,12/19,no,AB,0,Activion Consumer Journey,0,,,0
+Kevin,2,Strategy,21,Sunday,12/20,no,AB,0,Activion Consumer Journey,0,,,0
+Kevin,2,Strategy,22,Monday,12/21,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,23,Tuesday,12/22,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,24,Wednesday,12/23,no,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,25,Thursday,12/24,yes,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,26,Friday,12/25,yes,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,27,Saturday,12/26,yes,AB,0.5,Activion Consumer Journey,0.5,,,1
+Kevin,2,Strategy,28,Sunday,12/27,yes,AB,0.5,Activion Consumer Journey,0.5,,,1
+Matthew,3,Strategy,1,Monday,11/30,no,Levi's,1,,,,,1
+Matthew,3,Strategy,2,Tuesday,12/1,no,Levi's,1,,,,,1
+Matthew,3,Strategy,3,Wednesday,12/2,no,Levi's,1,,,,,1
+Matthew,3,Strategy,4,Thursday,12/3,no,Levi's,1,,,,,1
+Matthew,3,Strategy,5,Friday,12/4,no,Levi's,1,,,,,1
+Matthew,3,Strategy,6,Saturday,12/5,no,Levi's,0,,,,,0
+Matthew,3,Strategy,7,Sunday,12/6,no,Levi's,0,,,,,0
+Matthew,3,Strategy,8,Monday,12/7,no,Levi's,1,,,,,1
+Matthew,3,Strategy,9,Tuesday,12/8,no,Levi's,1,,,,,1
+Matthew,3,Strategy,10,Wednesday,12/9,no,Levi's,1,,,,,1
+Matthew,3,Strategy,11,Thursday,12/10,no,Levi's,1,,,,,1
+Matthew,3,Strategy,12,Friday,12/11,no,Levi's,1,,,,,1
+Matthew,3,Strategy,13,Saturday,12/12,no,Levi's,0,,,,,0
+Matthew,3,Strategy,14,Sunday,12/13,no,Levi's,0,,,,,0
+Matthew,3,Strategy,15,Monday,12/14,no,Levi's,1,,,,,1
+Matthew,3,Strategy,16,Tuesday,12/15,no,Levi's,1,,,,,1
+Matthew,3,Strategy,17,Wednesday,12/16,no,Levi's,1,,,,,1
+Matthew,3,Strategy,18,Thursday,12/17,no,Levi's,1,,,,,1
+Matthew,3,Strategy,19,Friday,12/18,no,Levi's,1,,,,,1
+Matthew,3,Strategy,20,Saturday,12/19,no,Levi's,0,,,,,0
+Matthew,3,Strategy,21,Sunday,12/20,no,Levi's,0,,,,,0
+Matthew,3,Strategy,22,Monday,12/21,no,Levi's,1,,,,,1
+Matthew,3,Strategy,23,Tuesday,12/22,no,Levi's,1,,,,,1
+Matthew,3,Strategy,24,Wednesday,12/23,no,Levi's,1,,,,,1
+Matthew,3,Strategy,25,Thursday,12/24,yes,Levi's,1,,,,,1
+Matthew,3,Strategy,26,Friday,12/25,yes,Levi's,1,,,,,1
+Matthew,3,Strategy,27,Saturday,12/26,yes,Levi's,0,,,,,0
+Matthew,3,Strategy,28,Sunday,12/27,yes,Levi's,0,,,,,0
+Sean,4,Strategy,1,Monday,11/30,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,2,Tuesday,12/1,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,3,Wednesday,12/2,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,4,Thursday,12/3,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,5,Friday,12/4,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,6,Saturday,12/5,no,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,7,Sunday,12/6,no,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,8,Monday,12/7,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,9,Tuesday,12/8,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,10,Wednesday,12/9,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,11,Thursday,12/10,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,12,Friday,12/11,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,13,Saturday,12/12,no,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,14,Sunday,12/13,no,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,15,Monday,12/14,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,16,Tuesday,12/15,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,17,Wednesday,12/16,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,18,Thursday,12/17,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,19,Friday,12/18,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,20,Saturday,12/19,no,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,21,Sunday,12/20,no,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,22,Monday,12/21,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,23,Tuesday,12/22,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,24,Wednesday,12/23,no,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,25,Thursday,12/24,yes,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,26,Friday,12/25,yes,Audi,0.5,Polaris,0.5,,,1
+Sean,4,Strategy,27,Saturday,12/26,yes,Audi,0,Polaris,0,,,0
+Sean,4,Strategy,28,Sunday,12/27,yes,Audi,0,Polaris,0,,,0
+Katrina,5,Strategy,1,Monday,11/30,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,2,Tuesday,12/1,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,3,Wednesday,12/2,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,4,Thursday,12/3,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,5,Friday,12/4,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,6,Saturday,12/5,no,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,7,Sunday,12/6,no,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,8,Monday,12/7,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,9,Tuesday,12/8,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,10,Wednesday,12/9,no,Jordan,0.5,Internal,0,,,0.5
+Katrina,5,Strategy,11,Thursday,12/10,no,Jordan,0.5,Internal,0,,,0.5
+Katrina,5,Strategy,12,Friday,12/11,no,Jordan,0.5,Internal,0,,,0.5
+Katrina,5,Strategy,13,Saturday,12/12,no,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,14,Sunday,12/13,no,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,15,Monday,12/14,no,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,16,Tuesday,12/15,no,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,17,Wednesday,12/16,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,18,Thursday,12/17,no,Jordan,0.5,Internal,0.5,,,1
+Katrina,5,Strategy,19,Friday,12/18,no,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,20,Saturday,12/19,no,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,21,Sunday,12/20,no,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,22,Monday,12/21,no,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,23,Tuesday,12/22,no,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,24,Wednesday,12/23,no,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,25,Thursday,12/24,yes,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,26,Friday,12/25,yes,Jordan,0.5,Internal,0.25,,,0.75
+Katrina,5,Strategy,27,Saturday,12/26,yes,Jordan,0,Internal,0,,,0
+Katrina,5,Strategy,28,Sunday,12/27,yes,Jordan,0,Internal,0,,,0
+Gaby,6,Strategy,1,Monday,11/30,no,Audi,1,,,,,1
+Gaby,6,Strategy,2,Tuesday,12/1,no,Audi,1,,,,,1
+Gaby,6,Strategy,3,Wednesday,12/2,no,Audi,1,,,,,1
+Gaby,6,Strategy,4,Thursday,12/3,no,Audi,1,,,,,1
+Gaby,6,Strategy,5,Friday,12/4,no,Audi,1,,,,,1
+Gaby,6,Strategy,6,Saturday,12/5,no,Audi,0,,,,,0
+Gaby,6,Strategy,7,Sunday,12/6,no,Audi,0,,,,,0
+Gaby,6,Strategy,8,Monday,12/7,no,Audi,1,,,,,1
+Gaby,6,Strategy,9,Tuesday,12/8,no,Audi,1,,,,,1
+Gaby,6,Strategy,10,Wednesday,12/9,no,Audi,1,,,,,1
+Gaby,6,Strategy,11,Thursday,12/10,no,Audi,1,,,,,1
+Gaby,6,Strategy,12,Friday,12/11,no,Audi,1,,,,,1
+Gaby,6,Strategy,13,Saturday,12/12,no,Audi,0,,,,,0
+Gaby,6,Strategy,14,Sunday,12/13,no,Audi,0,,,,,0
+Gaby,6,Strategy,15,Monday,12/14,no,Audi,1,,,,,1
+Gaby,6,Strategy,16,Tuesday,12/15,no,Audi,1,,,,,1
+Gaby,6,Strategy,17,Wednesday,12/16,no,Audi,1,,,,,1
+Gaby,6,Strategy,18,Thursday,12/17,no,Audi,1,,,,,1
+Gaby,6,Strategy,19,Friday,12/18,no,Audi,1,,,,,1
+Gaby,6,Strategy,20,Saturday,12/19,no,Audi,0,,,,,0
+Gaby,6,Strategy,21,Sunday,12/20,no,Audi,0,,,,,0
+Gaby,6,Strategy,22,Monday,12/21,no,Audi,1,,,,,1
+Gaby,6,Strategy,23,Tuesday,12/22,no,Audi,1,,,,,1
+Gaby,6,Strategy,24,Wednesday,12/23,no,Audi,1,,,,,1
+Gaby,6,Strategy,25,Thursday,12/24,yes,Audi,1,,,,,1
+Gaby,6,Strategy,26,Friday,12/25,yes,Audi,1,,,,,1
+Gaby,6,Strategy,27,Saturday,12/26,yes,Audi,0,,,,,0
+Gaby,6,Strategy,28,Sunday,12/27,yes,Audi,0,,,,,0
+Tjis,7,Strategy,1,Monday,11/30,no,Activision,1,,,,,1
+Tjis,7,Strategy,2,Tuesday,12/1,no,Activision,1,,,,,1
+Tjis,7,Strategy,3,Wednesday,12/2,no,Activision,1,,,,,1
+Tjis,7,Strategy,4,Thursday,12/3,no,Activision,1,,,,,1
+Tjis,7,Strategy,5,Friday,12/4,no,Activision,1,,,,,1
+Tjis,7,Strategy,6,Saturday,12/5,no,Activision,0,,,,,0
+Tjis,7,Strategy,7,Sunday,12/6,no,Activision,0,,,,,0
+Tjis,7,Strategy,8,Monday,12/7,no,Activision,1,,,,,1
+Tjis,7,Strategy,9,Tuesday,12/8,no,Activision,1,,,,,1
+Tjis,7,Strategy,10,Wednesday,12/9,no,Activision,1,,,,,1
+Tjis,7,Strategy,11,Thursday,12/10,no,Activision,1,,,,,1
+Tjis,7,Strategy,12,Friday,12/11,no,Activision,1,,,,,1
+Tjis,7,Strategy,13,Saturday,12/12,no,Activision,0,,,,,0
+Tjis,7,Strategy,14,Sunday,12/13,no,Activision,0,,,,,0
+Tjis,7,Strategy,15,Monday,12/14,no,Activision,1,,,,,1
+Tjis,7,Strategy,16,Tuesday,12/15,no,Activision,1,,,,,1
+Tjis,7,Strategy,17,Wednesday,12/16,no,Activision,1,,,,,1
+Tjis,7,Strategy,18,Thursday,12/17,no,Activision,1,,,,,1
+Tjis,7,Strategy,19,Friday,12/18,no,Activision,1,,,,,1
+Tjis,7,Strategy,20,Saturday,12/19,no,Activision,0,,,,,0
+Tjis,7,Strategy,21,Sunday,12/20,no,Activision,0,,,,,0
+Tjis,7,Strategy,22,Monday,12/21,no,Activision,1,,,,,1
+Tjis,7,Strategy,23,Tuesday,12/22,no,Activision,1,,,,,1
+Tjis,7,Strategy,24,Wednesday,12/23,no,Activision,1,,,,,1
+Tjis,7,Strategy,25,Thursday,12/24,yes,Activision,1,,,,,1
+Tjis,7,Strategy,26,Friday,12/25,yes,Activision,1,,,,,1
+Tjis,7,Strategy,27,Saturday,12/26,yes,Activision,0,,,,,0
+Tjis,7,Strategy,28,Sunday,12/27,yes,Activision,0,,,,,0
+Kat,8,Strategy,1,Monday,11/30,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,2,Tuesday,12/1,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,3,Wednesday,12/2,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,4,Thursday,12/3,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,5,Friday,12/4,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,6,Saturday,12/5,no,Levi's,0,Visa,0,,,0
+Kat,8,Strategy,7,Sunday,12/6,no,Levi's,0,Visa,0,,,0
+Kat,8,Strategy,8,Monday,12/7,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,9,Tuesday,12/8,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,10,Wednesday,12/9,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,11,Thursday,12/10,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,12,Friday,12/11,no,Levi's,0.5,Visa,0.5,,,1
+Kat,8,Strategy,13,Saturday,12/12,no,Levi's,0,Visa,0,,,0
+Kat,8,Strategy,14,Sunday,12/13,no,Levi's,0,Visa,0,,,0
+Kat,8,Strategy,15,Monday,12/14,no,Levi's,0.5,Visa,0,,,0.5
+Kat,8,Strategy,16,Tuesday,12/15,no,Levi's,0.5,Visa,0,,,0.5
+Kat,8,Strategy,17,Wednesday,12/16,no,Levi's,0.5,Visa,0,,,0.5
+Kat,8,Strategy,18,Thursday,12/17,no,Levi's,0.5,Visa,0,,,0.5
+Kat,8,Strategy,19,Friday,12/18,no,Levi's,0.5,Visa,0,,,0.5
+Kat,8,Strategy,20,Saturday,12/19,no,Levi's,0,Visa,0,,,0
+Kat,8,Strategy,21,Sunday,12/20,no,Levi's,0,Visa,0.25,,,0.25
+Kat,8,Strategy,22,Monday,12/21,no,Levi's,0.5,Visa,0.25,,,0.75
+Kat,8,Strategy,23,Tuesday,12/22,no,Levi's,0.5,Visa,0.25,,,0.75
+Kat,8,Strategy,24,Wednesday,12/23,no,Levi's,0.5,Visa,0.25,,,0.75
+Kat,8,Strategy,25,Thursday,12/24,yes,Levi's,0.5,Visa,0.25,,,0.75
+Kat,8,Strategy,26,Friday,12/25,yes,Levi's,0.5,Visa,0.25,,,0.75
+Kat,8,Strategy,27,Saturday,12/26,yes,Levi's,0,Visa,0,,,0
+Kat,8,Strategy,28,Sunday,12/27,yes,Levi's,0,Visa,0,,,0
+Charlotte,9,Strategy,1,Monday,11/30,no,Polaris,0.25,Visa,0.25,Audi,0,0.5
+Charlotte,9,Strategy,2,Tuesday,12/1,no,Polaris,0.25,Visa,0.25,Audi,0,0.5
+Charlotte,9,Strategy,3,Wednesday,12/2,no,Polaris,0.25,Visa,0.25,Audi,0,0.5
+Charlotte,9,Strategy,4,Thursday,12/3,no,Polaris,0.25,Visa,0.25,Audi,0,0.5
+Charlotte,9,Strategy,5,Friday,12/4,no,Polaris,0.25,Visa,0.25,Audi,0,0.5
+Charlotte,9,Strategy,6,Saturday,12/5,no,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,7,Sunday,12/6,no,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,8,Monday,12/7,no,Polaris,0.25,Visa,0,Audi,0,0.25
+Charlotte,9,Strategy,9,Tuesday,12/8,no,Polaris,0.25,Visa,0,Audi,0,0.25
+Charlotte,9,Strategy,10,Wednesday,12/9,no,Polaris,0.25,Visa,0,Audi,0,0.25
+Charlotte,9,Strategy,11,Thursday,12/10,no,Polaris,0.25,Visa,0,Audi,0,0.25
+Charlotte,9,Strategy,12,Friday,12/11,no,Polaris,0.25,Visa,0,Audi,0,0.25
+Charlotte,9,Strategy,13,Saturday,12/12,no,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,14,Sunday,12/13,no,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,15,Monday,12/14,no,Polaris,0.25,Visa,0,Audi,0.25,0.5
+Charlotte,9,Strategy,16,Tuesday,12/15,no,Polaris,0.25,Visa,0,Audi,0.25,0.5
+Charlotte,9,Strategy,17,Wednesday,12/16,no,Polaris,0.25,Visa,0,Audi,0.25,0.5
+Charlotte,9,Strategy,18,Thursday,12/17,no,Polaris,0.25,Visa,0,Audi,0.25,0.5
+Charlotte,9,Strategy,19,Friday,12/18,no,Polaris,0.25,Visa,0,Audi,0.25,0.5
+Charlotte,9,Strategy,20,Saturday,12/19,no,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,21,Sunday,12/20,no,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,22,Monday,12/21,no,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
+Charlotte,9,Strategy,23,Tuesday,12/22,no,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
+Charlotte,9,Strategy,24,Wednesday,12/23,no,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
+Charlotte,9,Strategy,25,Thursday,12/24,yes,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
+Charlotte,9,Strategy,26,Friday,12/25,yes,Polaris,0.25,Visa,0.25,Audi,0.25,0.75
+Charlotte,9,Strategy,27,Saturday,12/26,yes,Polaris,0,Visa,0,Audi,0,0
+Charlotte,9,Strategy,28,Sunday,12/27,yes,Polaris,0,Visa,0,Audi,0,0
+Charles,10,Strategy,1,Monday,11/30,no,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
+Charles,10,Strategy,2,Tuesday,12/1,no,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
+Charles,10,Strategy,3,Wednesday,12/2,no,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
+Charles,10,Strategy,4,Thursday,12/3,no,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
+Charles,10,Strategy,5,Friday,12/4,no,Start UX Resource chart,0.5,Best Buy Process,0.5,Timeline,0,1
+Charles,10,Strategy,6,Saturday,12/5,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,7,Sunday,12/6,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,8,Monday,12/7,no,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
+Charles,10,Strategy,9,Tuesday,12/8,no,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
+Charles,10,Strategy,10,Wednesday,12/9,no,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
+Charles,10,Strategy,11,Thursday,12/10,no,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
+Charles,10,Strategy,12,Friday,12/11,no,Start UX Resource chart,0.5,Best Buy Process,0,Timeline,0.5,1
+Charles,10,Strategy,13,Saturday,12/12,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,14,Sunday,12/13,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,15,Monday,12/14,no,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
+Charles,10,Strategy,16,Tuesday,12/15,no,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
+Charles,10,Strategy,17,Wednesday,12/16,no,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
+Charles,10,Strategy,18,Thursday,12/17,no,Start UX Resource chart,0,Best Buy Process,0.25,Timeline,0.5,0.75
+Charles,10,Strategy,19,Friday,12/18,no,Start UX Resource chart,0,Best Buy Process,0.25,Timeline,0.5,0.75
+Charles,10,Strategy,20,Saturday,12/19,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,21,Sunday,12/20,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,22,Monday,12/21,no,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
+Charles,10,Strategy,23,Tuesday,12/22,no,Start UX Resource chart,0,Best Buy Process,0.5,Timeline,0.5,1
+Charles,10,Strategy,24,Wednesday,12/23,no,Start UX Resource chart,0,Best Buy Process,0,Timeline,0.5,0.5
+Charles,10,Strategy,25,Thursday,12/24,yes,Start UX Resource chart,0,Best Buy Process,0,Timeline,0.5,0.5
+Charles,10,Strategy,26,Friday,12/25,yes,Start UX Resource chart,0,Best Buy Process,0,Timeline,0.5,0.5
+Charles,10,Strategy,27,Saturday,12/26,yes,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Charles,10,Strategy,28,Sunday,12/27,yes,Start UX Resource chart,0,Best Buy Process,0,Timeline,0,0
+Kelly,11,Strategy,1,Monday,11/30,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,2,Tuesday,12/1,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,3,Wednesday,12/2,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,4,Thursday,12/3,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,5,Friday,12/4,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,6,Saturday,12/5,no,AB,0,Internal,0,,,0
+Kelly,11,Strategy,7,Sunday,12/6,no,AB,0,Internal,0,,,0
+Kelly,11,Strategy,8,Monday,12/7,no,AB,0.5,Internal,0.25,,,0.75
+Kelly,11,Strategy,9,Tuesday,12/8,no,AB,0.5,Internal,0.25,,,0.75
+Kelly,11,Strategy,10,Wednesday,12/9,no,AB,0.5,Internal,0.25,,,0.75
+Kelly,11,Strategy,11,Thursday,12/10,no,AB,0.5,Internal,0.25,,,0.75
+Kelly,11,Strategy,12,Friday,12/11,no,AB,0.5,Internal,0.25,,,0.75
+Kelly,11,Strategy,13,Saturday,12/12,no,AB,0,Internal,0,,,0
+Kelly,11,Strategy,14,Sunday,12/13,no,AB,0,Internal,0,,,0
+Kelly,11,Strategy,15,Monday,12/14,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,16,Tuesday,12/15,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,17,Wednesday,12/16,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,18,Thursday,12/17,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,19,Friday,12/18,no,AB,0.5,Internal,0.5,,,1
+Kelly,11,Strategy,20,Saturday,12/19,no,AB,0,Internal,0,,,0
+Kelly,11,Strategy,21,Sunday,12/20,no,AB,0,Internal,0,,,0
+Kelly,11,Strategy,22,Monday,12/21,no,AB,0,Internal,0.25,,,0.25
+Kelly,11,Strategy,23,Tuesday,12/22,no,AB,0,Internal,0.25,,,0.25
+Kelly,11,Strategy,24,Wednesday,12/23,no,AB,0,Internal,0.25,,,0.25
+Kelly,11,Strategy,25,Thursday,12/24,yes,AB,0,Internal,0.25,,,0.25
+Kelly,11,Strategy,26,Friday,12/25,yes,AB,0,Internal,0.25,,,0.25
+Kelly,11,Strategy,27,Saturday,12/26,yes,AB,0,Internal,0,,,0
+Kelly,11,Strategy,28,Sunday,12/27,yes,AB,0,Internal,0,,,0
+Faith,12,UX,1,Monday,11/30,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,2,Tuesday,12/1,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,3,Wednesday,12/2,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,4,Thursday,12/3,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,5,Friday,12/4,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,6,Saturday,12/5,no,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,7,Sunday,12/6,no,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,8,Monday,12/7,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,9,Tuesday,12/8,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,10,Wednesday,12/9,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,11,Thursday,12/10,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,12,Friday,12/11,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,13,Saturday,12/12,no,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,14,Sunday,12/13,no,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,15,Monday,12/14,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,16,Tuesday,12/15,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,17,Wednesday,12/16,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,18,Thursday,12/17,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,19,Friday,12/18,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,20,Saturday,12/19,no,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,21,Sunday,12/20,no,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,22,Monday,12/21,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,23,Tuesday,12/22,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,24,Wednesday,12/23,no,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,25,Thursday,12/24,yes,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,26,Friday,12/25,yes,Audi,0.25,Polaris,0.5,Internal,0.25,1
+Faith,12,UX,27,Saturday,12/26,yes,Audi,0,Polaris,0,Internal,0,0
+Faith,12,UX,28,Sunday,12/27,yes,Audi,0,Polaris,0,Internal,0,0
+Christoph,13,UX,1,Monday,11/30,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,2,Tuesday,12/1,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,3,Wednesday,12/2,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,4,Thursday,12/3,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,5,Friday,12/4,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,6,Saturday,12/5,no,Audi,0,Polaris,0,,,0
+Christoph,13,UX,7,Sunday,12/6,no,Audi,0,Polaris,0,,,0
+Christoph,13,UX,8,Monday,12/7,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,9,Tuesday,12/8,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,10,Wednesday,12/9,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,11,Thursday,12/10,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,12,Friday,12/11,no,Audi,0.75,Polaris,0.25,,,1
+Christoph,13,UX,13,Saturday,12/12,no,Audi,0,Polaris,0,,,0
+Christoph,13,UX,14,Sunday,12/13,no,Audi,0,Polaris,0,,,0
+Christoph,13,UX,15,Monday,12/14,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,16,Tuesday,12/15,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,17,Wednesday,12/16,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,18,Thursday,12/17,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,19,Friday,12/18,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,20,Saturday,12/19,no,Audi,0,Polaris,0,,,0
+Christoph,13,UX,21,Sunday,12/20,no,Audi,0,Polaris,0,,,0
+Christoph,13,UX,22,Monday,12/21,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,23,Tuesday,12/22,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,24,Wednesday,12/23,no,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,25,Thursday,12/24,yes,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,26,Friday,12/25,yes,Audi,0.25,Polaris,0.25,,,0.5
+Christoph,13,UX,27,Saturday,12/26,yes,Audi,0,Polaris,0,,,0
+Christoph,13,UX,28,Sunday,12/27,yes,Audi,0,Polaris,0,,,0
+Ricky,14,UX,1,Monday,11/30,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,2,Tuesday,12/1,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,3,Wednesday,12/2,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,4,Thursday,12/3,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,5,Friday,12/4,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,6,Saturday,12/5,no,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,7,Sunday,12/6,no,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,8,Monday,12/7,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,9,Tuesday,12/8,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,10,Wednesday,12/9,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,11,Thursday,12/10,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,12,Friday,12/11,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,13,Saturday,12/12,no,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,14,Sunday,12/13,no,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,15,Monday,12/14,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,16,Tuesday,12/15,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,17,Wednesday,12/16,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,18,Thursday,12/17,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,19,Friday,12/18,no,Jordan,0.5,Levi's,0.25,,,0.75
+Ricky,14,UX,20,Saturday,12/19,no,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,21,Sunday,12/20,no,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,22,Monday,12/21,no,Jordan,0,Levi's,0.25,,,0.25
+Ricky,14,UX,23,Tuesday,12/22,no,Jordan,0,Levi's,0.25,,,0.25
+Ricky,14,UX,24,Wednesday,12/23,no,Jordan,0,Levi's,0.25,,,0.25
+Ricky,14,UX,25,Thursday,12/24,yes,Jordan,0,Levi's,0.25,,,0.25
+Ricky,14,UX,26,Friday,12/25,yes,Jordan,0,Levi's,0.25,,,0.25
+Ricky,14,UX,27,Saturday,12/26,yes,Jordan,0,Levi's,0,,,0
+Ricky,14,UX,28,Sunday,12/27,yes,Jordan,0,Levi's,0,,,0
+Noah,15,UX,1,Monday,11/30,no,Polaris,1,,,,,1
+Noah,15,UX,2,Tuesday,12/1,no,Polaris,1,,,,,1
+Noah,15,UX,3,Wednesday,12/2,no,Polaris,1,,,,,1
+Noah,15,UX,4,Thursday,12/3,no,Polaris,1,,,,,1
+Noah,15,UX,5,Friday,12/4,no,Polaris,1,,,,,1
+Noah,15,UX,6,Saturday,12/5,no,Polaris,0,,,,,0
+Noah,15,UX,7,Sunday,12/6,no,Polaris,0,,,,,0
+Noah,15,UX,8,Monday,12/7,no,Polaris,1,,,,,1
+Noah,15,UX,9,Tuesday,12/8,no,Polaris,1,,,,,1
+Noah,15,UX,10,Wednesday,12/9,no,Polaris,1,,,,,1
+Noah,15,UX,11,Thursday,12/10,no,Polaris,1,,,,,1
+Noah,15,UX,12,Friday,12/11,no,Polaris,1,,,,,1
+Noah,15,UX,13,Saturday,12/12,no,Polaris,0,,,,,0
+Noah,15,UX,14,Sunday,12/13,no,Polaris,0,,,,,0
+Noah,15,UX,15,Monday,12/14,no,Polaris,1,,,,,1
+Noah,15,UX,16,Tuesday,12/15,no,Polaris,1,,,,,1
+Noah,15,UX,17,Wednesday,12/16,no,Polaris,1,,,,,1
+Noah,15,UX,18,Thursday,12/17,no,Polaris,1,,,,,1
+Noah,15,UX,19,Friday,12/18,no,Polaris,1,,,,,1
+Noah,15,UX,20,Saturday,12/19,no,Polaris,0,,,,,0
+Noah,15,UX,21,Sunday,12/20,no,Polaris,0,,,,,0
+Noah,15,UX,22,Monday,12/21,no,Polaris,1,,,,,1
+Noah,15,UX,23,Tuesday,12/22,no,Polaris,1,,,,,1
+Noah,15,UX,24,Wednesday,12/23,no,Polaris,1,,,,,1
+Noah,15,UX,25,Thursday,12/24,yes,Polaris,1,,,,,1
+Noah,15,UX,26,Friday,12/25,yes,Polaris,1,,,,,1
+Noah,15,UX,27,Saturday,12/26,yes,Polaris,0,,,,,0
+Noah,15,UX,28,Sunday,12/27,yes,Polaris,0,,,,,0
+Simon,16,UX,1,Monday,11/30,no,Activision,0.25,,,,,0.25
+Simon,16,UX,2,Tuesday,12/1,no,Activision,0.25,,,,,0.25
+Simon,16,UX,3,Wednesday,12/2,no,Activision,0.25,,,,,0.25
+Simon,16,UX,4,Thursday,12/3,no,Activision,0.25,,,,,0.25
+Simon,16,UX,5,Friday,12/4,no,Activision,0.25,,,,,0.25
+Simon,16,UX,6,Saturday,12/5,no,Activision,0,,,,,0
+Simon,16,UX,7,Sunday,12/6,no,Activision,0,,,,,0
+Simon,16,UX,8,Monday,12/7,no,Activision,0.25,,,,,0.25
+Simon,16,UX,9,Tuesday,12/8,no,Activision,0.25,,,,,0.25
+Simon,16,UX,10,Wednesday,12/9,no,Activision,0.25,,,,,0.25
+Simon,16,UX,11,Thursday,12/10,no,Activision,0.25,,,,,0.25
+Simon,16,UX,12,Friday,12/11,no,Activision,0.25,,,,,0.25
+Simon,16,UX,13,Saturday,12/12,no,Activision,0,,,,,0
+Simon,16,UX,14,Sunday,12/13,no,Activision,0,,,,,0
+Simon,16,UX,15,Monday,12/14,no,Activision,0.25,,,,,0.25
+Simon,16,UX,16,Tuesday,12/15,no,Activision,0.25,,,,,0.25
+Simon,16,UX,17,Wednesday,12/16,no,Activision,0.25,,,,,0.25
+Simon,16,UX,18,Thursday,12/17,no,Activision,0.25,,,,,0.25
+Simon,16,UX,19,Friday,12/18,no,Activision,0.25,,,,,0.25
+Simon,16,UX,20,Saturday,12/19,no,Activision,0,,,,,0
+Simon,16,UX,21,Sunday,12/20,no,Activision,0,,,,,0
+Simon,16,UX,22,Monday,12/21,no,Activision,0.25,,,,,0.25
+Simon,16,UX,23,Tuesday,12/22,no,Activision,0.25,,,,,0.25
+Simon,16,UX,24,Wednesday,12/23,no,Activision,0.25,,,,,0.25
+Simon,16,UX,25,Thursday,12/24,yes,Activision,0.25,,,,,0.25
+Simon,16,UX,26,Friday,12/25,yes,Activision,0.25,,,,,0.25
+Simon,16,UX,27,Saturday,12/26,yes,Activision,0,,,,,0
+Simon,16,UX,28,Sunday,12/27,yes,Activision,0,,,,,0
+Christine,17,UX,1,Monday,11/30,no,Polaris,1,,,,,1
+Christine,17,UX,2,Tuesday,12/1,no,Polaris,1,,,,,1
+Christine,17,UX,3,Wednesday,12/2,no,Polaris,1,,,,,1
+Christine,17,UX,4,Thursday,12/3,no,Polaris,1,,,,,1
+Christine,17,UX,5,Friday,12/4,no,Polaris,1,,,,,1
+Christine,17,UX,6,Saturday,12/5,no,Polaris,0,,,,,0
+Christine,17,UX,7,Sunday,12/6,no,Polaris,0,,,,,0
+Christine,17,UX,8,Monday,12/7,no,Polaris,1,,,,,1
+Christine,17,UX,9,Tuesday,12/8,no,Polaris,1,,,,,1
+Christine,17,UX,10,Wednesday,12/9,no,Polaris,1,,,,,1
+Christine,17,UX,11,Thursday,12/10,no,Polaris,1,,,,,1
+Christine,17,UX,12,Friday,12/11,no,Polaris,1,,,,,1
+Christine,17,UX,13,Saturday,12/12,no,Polaris,0,,,,,0
+Christine,17,UX,14,Sunday,12/13,no,Polaris,0,,,,,0
+Christine,17,UX,15,Monday,12/14,no,Polaris,1,,,,,1
+Christine,17,UX,16,Tuesday,12/15,no,Polaris,1,,,,,1
+Christine,17,UX,17,Wednesday,12/16,no,Polaris,1,,,,,1
+Christine,17,UX,18,Thursday,12/17,no,Polaris,1,,,,,1
+Christine,17,UX,19,Friday,12/18,no,Polaris,1,,,,,1
+Christine,17,UX,20,Saturday,12/19,no,Polaris,0,,,,,0
+Christine,17,UX,21,Sunday,12/20,no,Polaris,0,,,,,0
+Christine,17,UX,22,Monday,12/21,no,Polaris,1,,,,,1
+Christine,17,UX,23,Tuesday,12/22,no,Polaris,1,,,,,1
+Christine,17,UX,24,Wednesday,12/23,no,Polaris,1,,,,,1
+Christine,17,UX,25,Thursday,12/24,yes,Polaris,1,,,,,1
+Christine,17,UX,26,Friday,12/25,yes,Polaris,1,,,,,1
+Christine,17,UX,27,Saturday,12/26,yes,Polaris,0,,,,,0
+Christine,17,UX,28,Sunday,12/27,yes,Polaris,0,,,,,0
+Jessica,18,UX,1,Monday,11/30,no,Levi's,1,,,,,1
+Jessica,18,UX,2,Tuesday,12/1,no,Levi's,1,,,,,1
+Jessica,18,UX,3,Wednesday,12/2,no,Levi's,1,,,,,1
+Jessica,18,UX,4,Thursday,12/3,no,Levi's,1,,,,,1
+Jessica,18,UX,5,Friday,12/4,no,Levi's,1,,,,,1
+Jessica,18,UX,6,Saturday,12/5,no,Levi's,0,,,,,0
+Jessica,18,UX,7,Sunday,12/6,no,Levi's,0,,,,,0
+Jessica,18,UX,8,Monday,12/7,no,Levi's,1,,,,,1
+Jessica,18,UX,9,Tuesday,12/8,no,Levi's,1,,,,,1
+Jessica,18,UX,10,Wednesday,12/9,no,Levi's,1,,,,,1
+Jessica,18,UX,11,Thursday,12/10,no,Levi's,1,,,,,1
+Jessica,18,UX,12,Friday,12/11,no,Levi's,1,,,,,1
+Jessica,18,UX,13,Saturday,12/12,no,Levi's,0,,,,,0
+Jessica,18,UX,14,Sunday,12/13,no,Levi's,0,,,,,0
+Jessica,18,UX,15,Monday,12/14,no,Levi's,1,,,,,1
+Jessica,18,UX,16,Tuesday,12/15,no,Levi's,1,,,,,1
+Jessica,18,UX,17,Wednesday,12/16,no,Levi's,1,,,,,1
+Jessica,18,UX,18,Thursday,12/17,no,Levi's,1,,,,,1
+Jessica,18,UX,19,Friday,12/18,no,Levi's,1,,,,,1
+Jessica,18,UX,20,Saturday,12/19,no,Levi's,0,,,,,0
+Jessica,18,UX,21,Sunday,12/20,no,Levi's,0,,,,,0
+Jessica,18,UX,22,Monday,12/21,no,Levi's,1,,,,,1
+Jessica,18,UX,23,Tuesday,12/22,no,Levi's,1,,,,,1
+Jessica,18,UX,24,Wednesday,12/23,no,Levi's,1,,,,,1
+Jessica,18,UX,25,Thursday,12/24,yes,Levi's,1,,,,,1
+Jessica,18,UX,26,Friday,12/25,yes,Levi's,1,,,,,1
+Jessica,18,UX,27,Saturday,12/26,yes,Levi's,0,,,,,0
+Jessica,18,UX,28,Sunday,12/27,yes,Levi's,0,,,,,0
+Maxine,19,UX,1,Monday,11/30,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,2,Tuesday,12/1,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,3,Wednesday,12/2,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,4,Thursday,12/3,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,5,Friday,12/4,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,6,Saturday,12/5,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,7,Sunday,12/6,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,8,Monday,12/7,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,9,Tuesday,12/8,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,10,Wednesday,12/9,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,11,Thursday,12/10,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,12,Friday,12/11,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,13,Saturday,12/12,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,14,Sunday,12/13,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,15,Monday,12/14,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,16,Tuesday,12/15,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,17,Wednesday,12/16,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,18,Thursday,12/17,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,19,Friday,12/18,no,Audi,0.5,Internal,0.5,,,1
+Maxine,19,UX,20,Saturday,12/19,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,21,Sunday,12/20,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,22,Monday,12/21,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,23,Tuesday,12/22,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,24,Wednesday,12/23,no,Audi,0,Internal,0,,,0
+Maxine,19,UX,25,Thursday,12/24,yes,Audi,0,Internal,0,,,0
+Maxine,19,UX,26,Friday,12/25,yes,Audi,0,Internal,0,,,0
+Maxine,19,UX,27,Saturday,12/26,yes,Audi,0,Internal,0,,,0
+Maxine,19,UX,28,Sunday,12/27,yes,Audi,0,Internal,0,,,0
