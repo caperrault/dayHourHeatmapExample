@@ -8,9 +8,44 @@
         font-size: 36pt;
         font-family: Consolas, courier;
         fill: #F2F2F2;
-        margin-top: 100px;
-        margin-bottom: 75px;
+        margin-top: 50px;
+        margin-bottom: 25px;
         margin-left: 75px;
+      }
+
+      .blinking {
+        -webkit-animation-name: blinker;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+
+        -moz-animation-name: blinker;
+        -moz-animation-duration: 2s;
+        -moz-animation-timing-function: linear;
+        -moz-animation-iteration-count: infinite;
+
+        animation-name: blinker;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @-moz-keyframes blinker {
+      0% { opacity: 1.0; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1.0; }
+      }
+
+      @-webkit-keyframes blinker {
+          0% { opacity: 1.0; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1.0; }
+      }
+
+      @keyframes blinker {
+          0% { opacity: 1.0; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1.0; }
       }
 
       rect.bordered {
@@ -29,7 +64,7 @@
       text.mono {
         font-size: 9pt;
         font-family: Consolas, courier;
-        fill: #F2F2F2;
+        fill: lightGray;
       }
 
       text.axis-workweek {
@@ -67,20 +102,21 @@
     <div id="dataset-picker">
     </div>
     <script type="text/javascript">
-      var margin = { top: 50, right: 0, bottom: 100, left: 450 },
+      var margin = { top: 50, right: 0, bottom: 100, left: 440 },
           width = 1500 - margin.left - margin.right,
-          height = 430 - margin.top - margin.bottom,
+          height = 800 - margin.top - margin.bottom,
           gridSize = Math.floor(width / 28),
       //    legendElementWidth = gridSize*2,
       //    buckets = 9,
       //    colors = ["#ffffd9","#edf8b1","#c7e9b4","#7fcdbb","#41b6c4","#1d91c0","#225ea8","#253494","#081d58"], // alternatively colorbrewer.YlGnBu[9]
-          side = ["Strategy", "UX"],
-          roles = ["Social Strategist", "Design Strategist", "Design Strategist"],
-          ppl = ["Kat", "Charlotte", "Charles"],
+          side = ["Strategy","Strategy","Strategy","Strategy","Strategy","Strategy","Strategy","Strategy","Strategy","Strategy","Strategy", "UX", "UX", "UX", "UX", "UX", "UX", "UX", "UX"],
+          //roles = ["Social Strategist", "Design Strategist", "Design Strategist"],
+          roles = ["Director", "Director", "Director","Sr Strategist","Sr Strategist","Content Str","Social Str","Social Str","Design Str","Design Str","Strategist","Director","Sr UX","UX","UX","UX","Assoc UX","Assoc UX","Assoc UX"],
+          ppl = ["Doug","Kevin","Mathew","Sean","Katrina","Gaby","Thijs","Kat", "Charlotte", "Charles","Kelly","Faith","Christoph","Ricky","Noah","Simon","Christine","Jessica","Maxine"],
           days = ["M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S"];
-          dates = ["11/16", "11/17", "11/18", "11/19", "11/20", "11/21", "11/22", "11/23", "11/24", "11/25", "11/26", "11/27", "11/28", "11/29", "11/30", "12/1", "12/2", "12/3", "12/4", "12/5", "12/6", "12/7", "12/8", "12/9", "12/10", "12/11", "12/12", "12/13"];
-          datasets = ["Data22.csv", "data2.csv"],
-          iToday = 16;
+          dates = ["11/30", "12/1", "12/2", "12/3", "12/4", "12/5", "12/6", "12/7", "12/8", "12/9", "12/10", "12/11", "12/12", "12/13", "12/14", "12/15", "12/16", "12/17", "12/18", "12/19", "12/20", "12/21", "12/22", "12/23", "12/24", "12/25", "12/26", "12/27"];
+          datasets = ["Data3.csv", "data2.csv"],
+          iToday = 2;
 
           // //grabbing todays date mm/dd
           // var today = new Date();
@@ -131,145 +167,98 @@
 
       //    var iToday = function (d,i) {if (d.dayDate === today) {return iToday === i;}}
 
-      var sideLabels = svg.selectAll(".sideLabel")
-          .data(side)
-          .enter().append("text")
-            .text(function (d, i) {
-              if (i === 1) { return side[i-1]; }
-             })
-            .attr("x", -gridSize*10 )
-            .attr("y", function (d, i) { return (i-1) * gridSize - 4; })
-          //  .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", "sideLabel mono axis axis-workweek")
-            .style("font-weight", "bold");
-
-      var rolesLabels = svg.selectAll(".rolesLabel")
-          .data(roles)
-          .enter().append("text")
-            .text(function (d) { return d; })
-            .attr("x", -gridSize*7 )
-            .attr("y", function (d, i) { return i * gridSize - 4; })
-          //  .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", "rolesLabel mono axis axis-workweek");
-
-      var peopleLabels = svg.selectAll(".peopleLabel")
-          .data(ppl)
-          .enter().append("text")
-            .text(function (d) { return d; })
-            .attr("x", -gridSize*3 )
-            .attr("y", function (d, i) { return i * gridSize - 4; })
-          //  .style("text-anchor", "end")
-            .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
-            .attr("class", "peopleLabel mono axis axis-workweek");
-
-        var dateLabels = svg.selectAll(".dateLabel")
-            .data(dates)
-            .enter().append("text")
-              .text(function(d) { return d; })
-              .attr("x", function(d, i) { return i * gridSize; })
-              .attr("y", -20)
-              .style("display", function (d,i) {
-                if (i === 0 || i === 4 || i === 7 || i === 11 || i === 14 || i === 18 || i === 21 || i === 25) { return "inline";}
-                else { return "none";}
-              })
-              .style("opacity", function(d,i){
-                if (i === iToday-1){return 1;}
-                else {return 0.5;}
-              })
-              .style("text-anchor", "middle")
-              .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-              .attr("class", " mono axis axis-worktime");
-
-      var timeLabels = svg.selectAll(".timeLabel")
-          .data(days)
-          .enter().append("text")
-                .text(function(d,i) {
-                  if(i === iToday-1) {return "Today"}
-                  else {return d;}
-                })
-            .attr("x", function(d, i) { return i * gridSize; })
-            .attr("y", 0)
-            .style("text-anchor", "middle")
-            .style("opacity", function(d,i){
-              if (i === iToday-1){return 1;}
-              else {return 0.5;}
-            })
-            .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-            .attr("class", function(d) { return ((d === "S") ? "timeLabel mono axis" : "timeLabel mono axis axis-worktime" ); });
-
           var cards = svg.selectAll(".day")
              .data(data, function(d) {return d.people +':'+ d.day;});
 
           //top left square
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize ; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize; })
+              .attr("y", function(d,i) {
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
+              })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
               .attr("class", function(d,i) {
-                if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
+                if ((i-1) % 28 === 0 ) {return "today";}
                 else {return "bordered"}
               })
               .style("fill", function(d) {
-                if (d.value < 0.25) {return "#00B49B";}//green
-                else if (d.value === 2) {return "#F2F2F2";} //Gray
+                if (d.value < 0.25 &&  d.dayName !== "Saturday" && d.dayName !== "Sunday") {return "#00B49B";}//green
+                else if (d.dayName === "Saturday" || d.dayName === "Sunday") {return "lightGray";}
                 else { return "#D46D7A"; }//red
               });
 
           //top right square
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize + gridSize/2; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize; })
+              // .attr("y", function(d) { return (d.people - 1) * gridSize; })
+              .attr("y", function(d,i) {
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
+              })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
               .attr("class", function(d,i) {
-                if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
+                if ((i-1) % 28 === 0 ) {return "today";}
                 else {return "bordered"}
               })
               .style("fill", function(d) {
-                if (d.value < 0.5 ) {return "#00B49B";}
-                else if (d.value === 2) {return "#F2F2F2";}
+                if (d.value < 0.5 &&  d.dayName !== "Saturday" && d.dayName !== "Sunday") {return "#00B49B";}
+                else if (d.dayName === "Saturday" || d.dayName === "Sunday") {return "lightGray";}
                 else { return "#D46D7A"; }
               });
 
           //bottom left square
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
+              // .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
+              .attr("y", function(d,i) {
+                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
+                else {return (d.people - 1) * gridSize + gridSize*1.5;}
+              })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
               .attr("class", function(d,i) {
-                if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
+                //if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
+                if ((i-1) % 28 === 0 ) {return "today";}
                 else {return "bordered"}
               })
               .style("fill", function(d) {
-                if (d.value < 0.75 ) {return "#00B49B";}
-                else if (d.value === 2) {return "#F2F2F2";}
+                if (d.value < 0.75 && d.dayName !== "Saturday" && d.dayName !== "Sunday") {return "#00B49B";}
+                //else if (d.dayName === "Saturday" || d.dayName === "Sunday") {return "#F2F2F2";} //Gray
+                else if (d.dayName === "Saturday" || d.dayName === "Sunday") {return "lightGray";}
                 else { return "#D46D7A"; }
               });
 
           //bottom right square
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize + gridSize/2; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
+            //  .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
+            .attr("y", function(d,i) {
+              if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
+              else {return (d.people - 1) * gridSize + gridSize*1.5;}
+            })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
               .attr("class", function(d,i) {
-                if (i === iToday-1 || i === iToday-1+28 || i === iToday-1+56) {return "today";}
+                if ((i-1) % 28 === 0 ) {return "today";}
                 else {return "bordered"}
               })
               .style("fill", function(d) {
-                if (d.value < 1 ) {return "#00B49B";}
-                else if (d.value === 2) {return "#F2F2F2";}
+                if (d.value < 1 &&  d.dayName !== "Saturday" && d.dayName !== "Sunday") {return "#00B49B";}
+                else if (d.dayName === "Saturday" || d.dayName === "Sunday") {return "lightGray";}
                 else { return "#D46D7A"; }
               });
 
           //white frame for spacing
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize; })
+              //.attr("y", function(d) { return (d.people - 1) * gridSize; })
+              .attr("y", function(d,i) {
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
+              })
               .attr("width", gridSize)
               .attr("height", gridSize)
               .style("stroke-width", 7)
@@ -279,7 +268,11 @@
           //today highlight
           cards.enter().append("rect")
               .attr("x", function(d) { return (iToday - 1) * gridSize ; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize ; })
+              //.attr("y", function(d) { return (d.people - 1) * gridSize ; })
+              .attr("y", function(d,i) {
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
+              })
               .attr("width", gridSize)
               .attr("height", gridSize)
               .style("fill", "none")
@@ -289,17 +282,21 @@
           //today highlight frame
           cards.enter().append("rect")
               .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
-              .attr("y", -2 )
+              .attr("y", -3 )
               .attr("width", gridSize + 5)
-              .attr("height", (gridSize+2) * ppl.length)
+              .attr("height", (gridSize+1) * ppl.length + gridSize)
               .style("fill", "none")
-              .style("stroke-width", 3)
+              .style("stroke-width", 4)
               .style("stroke", "white");
 
           //overlay for tooltip
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize ; })
-              .attr("y", function(d) { return (d.people - 1) * gridSize; })
+              //.attr("y", function(d) { return (d.people - 1) * gridSize; })
+              .attr("y", function(d,i) {
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
+              })
               .attr("class", "topRect")
               .attr("width", gridSize)
               .attr("height", gridSize)
@@ -339,12 +336,99 @@
                       div1.style("left", (d3.event.pageX) + "px")
                       .style("top", (d3.event.pageY-10) + "px");
 
-                      //console.log("today", today);
+                      //console.log("dayName", d.dayName);
 
                })
               .on("mouseout", function () {
                         div1.transition().duration(300).style("opacity", 0);
                         });
+
+              var sideLabels = svg.selectAll(".sideLabel")
+                  .data(side)
+                  .enter().append("text")
+                    // .text(function (d, i) {
+                    //   if (i === 0) { return side[0]; }
+                    //   else if (i === 1) { return side[1]; }
+                    //  })
+                    .text(function (d) {return d;})
+                    .attr("x", -gridSize*9.5 )
+                  //  .attr("y", function (d, i) { return (i-1) * gridSize - 4; })
+                    .attr("y", function (d, i) {
+                    if (i<11) { return i * gridSize - 4; }
+                    else { return i * gridSize - 4 +gridSize; }
+                    })
+                    .style("display", function(d,i) {
+                      if (i===0 || i===11) {return "inline";}
+                      else {return "none";}
+                    })
+                  //  .style("text-anchor", "end")
+                    .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+                    .attr("class", "sideLabel mono axis axis-workweek")
+                    .style("font-weight", "bold");
+
+              var rolesLabels = svg.selectAll(".rolesLabel")
+                  .data(roles)
+                  .enter().append("text")
+                    .text(function (d) { return d; })
+                    .attr("x", -gridSize*7 )
+                    .attr("y", function (d, i) {
+                    if (i<11) { return i * gridSize - 4; }
+                    else { return i * gridSize - 4 +gridSize; }
+                    })
+                  //  .style("text-anchor", "end")
+                    .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+                    .attr("class", "rolesLabel mono axis axis-workweek");
+
+              var peopleLabels = svg.selectAll(".peopleLabel")
+                  .data(ppl)
+                  .enter().append("text")
+                    .text(function (d) { return d; })
+                    .attr("x", -gridSize*3 )
+                    .attr("y", function (d, i) {
+                    if (i<11) { return i * gridSize - 4; }
+                    else { return i * gridSize - 4 +gridSize; }
+                    })
+                    //.attr("y", function (d, i) { return i * gridSize - 4; })
+                  //  .style("text-anchor", "end")
+                    .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+                    .attr("class", "peopleLabel mono axis axis-workweek");
+
+                var dateLabels = svg.selectAll(".dateLabel")
+                    .data(dates)
+                    .enter().append("text")
+                      .text(function(d) { return d; })
+                      .attr("x", function(d, i) { return i * gridSize; })
+                      .attr("y", -20)
+                      .style("display", function (d,i) {
+                        if (i === 0 || i === 4 || i === 7 || i === 11 || i === 14 || i === 18 || i === 21 || i === 25) { return "inline";}
+                        else { return "none";}
+                      })
+                      .style("opacity", function(d,i){
+                        if (i === iToday-1){return 1;}
+                        else {return 0.5;}
+                      })
+                      .style("text-anchor", "middle")
+                      .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+                      .attr("class", " mono axis axis-worktime");
+
+              var timeLabels = svg.selectAll(".timeLabel")
+                  .data(days)
+                  .enter().append("text")
+                        .text(function(d,i) {
+                          if(i === iToday-1) {return "Today"}
+                          else {return d;}
+                        })
+                    .attr("x", function(d, i) { return i * gridSize; })
+                    .attr("y", 0)
+                    .style("text-anchor", "middle")
+                    .style("opacity", function(d,i){
+                      if (i === iToday-1){return 1;}
+                      else {return 0.5;}
+                    })
+                    .attr("transform", "translate(" + gridSize / 2 + ", -6)")
+                    .attr("class", function(d) { return ((d === "S") ? "timeLabel mono axis" : "timeLabel mono axis axis-worktime" ); });
+                    // .classed("blinking", function(d,i) {if(i === iToday-1) {return true;}})
+                    // .style("fill", function(d,i) {if(i === iToday-1) {return "#D46D7A";}});
 
           // cards.transition().duration(1000)
           //     .style("fill", function(d) {
