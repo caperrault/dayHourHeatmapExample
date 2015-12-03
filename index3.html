@@ -142,22 +142,6 @@
           .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-          svg.append("line")
-             .attr("x1", - gridSize * 12 )
-             .attr("y1", 11)
-             .attr("x2", width - gridSize/2)
-             .attr("y2", 11)
-             .style("stroke", "black")
-             .style("stroke-width", 1);
-
-         svg.append("line")
-            .attr("x1", - gridSize * 12 )
-            .attr("y1", 463)
-            .attr("x2", width - gridSize/2)
-            .attr("y2", 463)
-            .style("stroke", "black")
-            .style("stroke-width", 1);
-
       var heatmapChart = function(csvFile) {
         d3.csv(csvFile,
         function(d,i) {
@@ -182,17 +166,17 @@
           //     .domain([0, buckets - 1, d3.max(data, function (d) { return d.value; })])
           //     .range(colors);
 
-          //var iToday = function (d,i) {if (d.dayDate === today) {return iToday === i;}}
+      //    var iToday = function (d,i) {if (d.dayDate === today) {return iToday === i;}}
 
           var cards = svg.selectAll(".day")
              .data(data, function(d) {return d.people +':'+ d.day;});
 
           //top left square
           cards.enter().append("rect")
-              .attr("x", function(d) { return (d.day - 1) * gridSize; })
+              .attr("x", function(d) { return (d.day - 1) * gridSize ; })
               .attr("y", function(d,i) {
-                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
-                else {return d.people * gridSize + gridSize/2 + gridSize;}
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
               })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
@@ -211,8 +195,8 @@
               .attr("x", function(d) { return (d.day - 1) * gridSize + gridSize/2; })
               // .attr("y", function(d) { return (d.people - 1) * gridSize; })
               .attr("y", function(d,i) {
-                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
-                else {return d.people * gridSize + gridSize/2 + gridSize;}
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
               })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
@@ -231,8 +215,8 @@
               .attr("x", function(d) { return (d.day - 1) * gridSize; })
               // .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
               .attr("y", function(d,i) {
-                if (i<308) {return (d.people - 0.5) * gridSize + gridSize/2;}
-                else {return (d.people - 1) * gridSize + gridSize * 1.5 + gridSize/2 + gridSize;}
+                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
+                else {return (d.people - 1) * gridSize + gridSize*1.5;}
               })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
@@ -253,8 +237,8 @@
               .attr("x", function(d) { return (d.day - 1) * gridSize + gridSize/2; })
             //  .attr("y", function(d) { return (d.people - 1) * gridSize + gridSize/2; })
             .attr("y", function(d,i) {
-              if (i<308) {return (d.people - 0.5) * gridSize + gridSize/2;}
-              else {return (d.people - 1) * gridSize + gridSize * 1.5 + gridSize/2 + gridSize;}
+              if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
+              else {return (d.people - 1) * gridSize + gridSize*1.5;}
             })
               .attr("width", gridSize/2)
               .attr("height", gridSize/2)
@@ -273,8 +257,8 @@
               .attr("x", function(d) { return (d.day - 1) * gridSize; })
               //.attr("y", function(d) { return (d.people - 1) * gridSize; })
               .attr("y", function(d,i) {
-                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
-                else {return (d.people) * gridSize + gridSize/2 + gridSize;}
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
               })
               .attr("width", gridSize)
               .attr("height", gridSize)
@@ -287,8 +271,8 @@
               .attr("x", function(d) { return (iToday - 1) * gridSize ; })
               //.attr("y", function(d) { return (d.people - 1) * gridSize ; })
               .attr("y", function(d,i) {
-                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
-                else {return d.people * gridSize + gridSize/2 + gridSize;}
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
               })
               .attr("width", gridSize)
               .attr("height", gridSize)
@@ -296,33 +280,23 @@
               .style("stroke-width", 7)
               .style("stroke", "lightGray");
 
-          //today highlight frame 1 (strategy)
+          //today highlight frame
           cards.enter().append("rect")
               .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
-              .attr("y", -2 + gridSize/2 )
+              .attr("y", -3 )
               .attr("width", gridSize + 5)
-              .attr("height", (gridSize + 2) * 11 - 18)
+              .attr("height", (gridSize+1) * ppl.length + gridSize)
               .style("fill", "none")
               .style("stroke-width", 4)
               .style("stroke", "white");
-
-              //today highlight frame 2 (UX)
-              cards.enter().append("rect")
-                  .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
-                  .attr("y", -2 + gridSize * 13.5 )
-                  .attr("width", gridSize + 5)
-                  .attr("height", (gridSize + 2) * 8 - 12)
-                  .style("fill", "none")
-                  .style("stroke-width", 4)
-                  .style("stroke", "white");
 
           //overlay for tooltip
           cards.enter().append("rect")
               .attr("x", function(d) { return (d.day - 1) * gridSize ; })
               //.attr("y", function(d) { return (d.people - 1) * gridSize; })
               .attr("y", function(d,i) {
-                if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
-                else {return d.people * gridSize + gridSize/2 + gridSize;}
+                if (i<308) {return (d.people - 1) * gridSize;}
+                else {return (d.people - 1) * gridSize + gridSize;}
               })
               .attr("class", "topRect")
               .attr("width", gridSize)
@@ -381,8 +355,8 @@
                     .attr("x", -gridSize * 12 + 5 )
                   //  .attr("y", function (d, i) { return (i-1) * gridSize - 4; })
                     .attr("y", function (d, i) {
-                    if (i<11) { return i * gridSize - 4 + gridSize/2;}
-                    else { return i * gridSize - 4 + gridSize + gridSize/2 + gridSize; }
+                    if (i<11) { return i * gridSize - 4; }
+                    else { return i * gridSize - 4 +gridSize; }
                     })
                     .style("display", function(d,i) {
                       if (i===0 || i===11) {return "inline";}
@@ -399,8 +373,8 @@
                     .text(function (d) { return d; })
                     .attr("x", -gridSize*7 )
                     .attr("y", function (d, i) {
-                    if (i<11) { return i * gridSize - 4 + gridSize/2; }
-                    else { return (i + 1) * gridSize - 4 + gridSize/2 + gridSize; }
+                    if (i<11) { return i * gridSize - 4; }
+                    else { return i * gridSize - 4 +gridSize; }
                     })
                   //  .style("text-anchor", "end")
                     .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
@@ -412,8 +386,8 @@
                     .text(function (d) { return d; })
                     .attr("x", -gridSize*3 )
                     .attr("y", function (d, i) {
-                    if (i<11) { return i * gridSize - 4 + gridSize/2; }
-                    else { return (i + 1) * gridSize - 4 + gridSize/2 + gridSize; }
+                    if (i<11) { return i * gridSize - 4; }
+                    else { return i * gridSize - 4 +gridSize; }
                     })
                     //.attr("y", function (d, i) { return i * gridSize - 4; })
                   //  .style("text-anchor", "end")
@@ -480,7 +454,7 @@
           //top left corner
           legend.append("rect")
           .attr("x", -gridSize * 12 - 4)
-          .attr("y", function (d, i) { return (i + 2) * gridSize + gridSize/2;})
+          .attr("y", function (d, i) { return (i + 2) * gridSize;})
           .attr("width", gridSize/2)
           .attr("height", gridSize/2)
           .attr("class", "bordered")
@@ -496,7 +470,7 @@
           //top right corner
           legend.append("rect")
           .attr("x", -gridSize * 12 + gridSize/2 - 4)
-          .attr("y", function (d, i) { return (i + 2) * gridSize + gridSize/2;})
+          .attr("y", function (d, i) { return (i + 2) * gridSize;})
           .attr("width", gridSize/2)
           .attr("height", gridSize/2)
           .attr("class", "bordered")
@@ -512,7 +486,7 @@
           //bottom left corner
           legend.append("rect")
           .attr("x", -gridSize * 12 - 4)
-          .attr("y", function (d, i) { return (i + 2.5) * gridSize + gridSize/2;})
+          .attr("y", function (d, i) { return (i + 2.5) * gridSize;})
           .attr("width", gridSize/2)
           .attr("height", gridSize/2)
           .attr("class", "bordered")
@@ -528,7 +502,7 @@
           //bottom right corner
           legend.append("rect")
           .attr("x", -gridSize * 12 + gridSize/2 - 4)
-          .attr("y", function (d, i) { return (i + 2.5) * gridSize + gridSize/2;})
+          .attr("y", function (d, i) { return (i + 2.5) * gridSize;})
           .attr("width", gridSize/2)
           .attr("height", gridSize/2)
           .attr("class", "bordered")
@@ -546,7 +520,7 @@
             .text(function (d) {return d*100 + "% allocated";})
             .attr("x", -gridSize * 11 + 6 )
           //  .attr("y", function (d, i) { return (i-1) * gridSize - 4; })
-            .attr("y", function (d, i) { return (i + 2) * gridSize - 4 + gridSize/2; })
+            .attr("y", function (d, i) { return (i + 2) * gridSize - 4; })
             .style("display", function(d,i) {
               if (i % 2 === 0) {return "inline";}
               else {return "none";}
@@ -560,7 +534,7 @@
           //white frame for spacing
           legend.enter().append("rect")
               .attr("x", -gridSize * 12 - 4)
-              .attr("y", function (d, i) { return (i + 2) * gridSize + gridSize/2;})
+              .attr("y", function (d, i) { return (i + 2) * gridSize;})
               .attr("width", gridSize)
               .attr("height", gridSize)
               .style("stroke-width", 7)
