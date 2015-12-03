@@ -9,7 +9,7 @@
         font-family: Consolas, courier;
         fill: #F2F2F2;
         margin-top: 50px;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
         margin-left: 75px;
       }
 
@@ -52,6 +52,13 @@
         stroke: #fff;
         stroke-width:2px;
         opacity: 0.5;
+      }
+      .topRect {
+        opacity: 0;
+      }
+
+      .topRect:hover {
+        opacity: 0.6;
       }
 
       rect.today {
@@ -145,7 +152,7 @@
           svg.append("line")
              .attr("x1", - gridSize * 12 )
              .attr("y1", 11)
-             .attr("x2", width - gridSize/2)
+             .attr("x2", width - gridSize/2 - 5)
              .attr("y2", 11)
              .style("stroke", "black")
              .style("stroke-width", 1);
@@ -153,7 +160,7 @@
          svg.append("line")
             .attr("x1", - gridSize * 12 )
             .attr("y1", 463)
-            .attr("x2", width - gridSize/2)
+            .attr("x2", width - gridSize/2 - 5)
             .attr("y2", 463)
             .style("stroke", "black")
             .style("stroke-width", 1);
@@ -327,7 +334,8 @@
               .attr("class", "topRect")
               .attr("width", gridSize)
               .attr("height", gridSize)
-              .attr("fill-opacity", 0)
+            //  .attr("fill-opacity", 0)
+              .style("fill", "white")
               .style("cursor", "pointer")
               .style("display", function(d) {
                 if (d.dayName === "Saturday" || d.dayName === "Sunday" || d.holiday === "yes") {return "none";}
