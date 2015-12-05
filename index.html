@@ -123,7 +123,7 @@
           days = ["M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S", "M", "T", "W", "T", "F", "S", "S"];
           dates = ["11/30", "12/1", "12/2", "12/3", "12/4", "12/5", "12/6", "12/7", "12/8", "12/9", "12/10", "12/11", "12/12", "12/13", "12/14", "12/15", "12/16", "12/17", "12/18", "12/19", "12/20", "12/21", "12/22", "12/23", "12/24", "12/25", "12/26", "12/27"];
           datasets = ["Data3.csv", "data2.csv"],
-          iToday = 3;
+          iToday = 4;
 
           // //grabbing todays date mm/dd
           // var today = new Date();
@@ -159,9 +159,9 @@
 
          svg.append("line")
             .attr("x1", - gridSize * 12 )
-            .attr("y1", 463)
+            .attr("y1", 466)
             .attr("x2", width - gridSize/2 - 5)
-            .attr("y2", 463)
+            .attr("y2", 466)
             .style("stroke", "black")
             .style("stroke-width", 1);
 
@@ -291,7 +291,7 @@
 
           //today highlight
           cards.enter().append("rect")
-              .attr("x", function(d) { return (iToday - 1) * gridSize ; })
+              .attr("x", function(d) { return (iToday - 1) * gridSize; })
               //.attr("y", function(d) { return (d.people - 1) * gridSize ; })
               .attr("y", function(d,i) {
                 if (i<308) {return (d.people - 1) * gridSize + gridSize/2;}
@@ -306,21 +306,21 @@
           //today highlight frame 1 (strategy)
           cards.enter().append("rect")
               .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
-              .attr("y", -2 + gridSize/2 )
-              .attr("width", gridSize + 5)
-              .attr("height", (gridSize + 2) * 11 - 18)
+              .attr("y", -2 + gridSize/2)
+              .attr("width", gridSize + 4)
+              .attr("height", (gridSize + 2) * 11 - 17)
               .style("fill", "none")
-              .style("stroke-width", 4)
+              .style("stroke-width", 3)
               .style("stroke", "white");
 
               //today highlight frame 2 (UX)
               cards.enter().append("rect")
                   .attr("x", function(d) { return (iToday - 1) * gridSize - 2; })
-                  .attr("y", -2 + gridSize * 13.5 )
-                  .attr("width", gridSize + 5)
-                  .attr("height", (gridSize + 2) * 8 - 12)
+                  .attr("y", -3 + gridSize * 13.5 )
+                  .attr("width", gridSize + 4)
+                  .attr("height", (gridSize + 2) * 8)
                   .style("fill", "none")
-                  .style("stroke-width", 4)
+                  .style("stroke-width", 3)
                   .style("stroke", "white");
 
           //overlay for tooltip
@@ -462,7 +462,7 @@
                       else {return 0.5;}
                     })
                     .attr("transform", "translate(" + gridSize / 2 + ", -6)")
-                    .attr("class", function(d,i) { return ((d === "S" || i === 24 || i === 25) ? "timeLabel mono axis" : "timeLabel mono axis axis-worktime" ); });
+                    .attr("class", function(d,i) { return ((d === "S" || i === 24 || i === 25) ? "timeLabel mono axis" : "timeLabel mono axis axis-worktime" ); })
                     // .classed("blinking", function(d,i) {if(i === iToday-1) {return true;}})
                     // .style("fill", function(d,i) {if(i === iToday-1) {return "#D46D7A";}});
 
